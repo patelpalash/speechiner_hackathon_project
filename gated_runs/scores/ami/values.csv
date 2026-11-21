@@ -1,0 +1,1770 @@
+run,dataset,conversation,field_id,field_type,unit,label,outcome,gold,shown,spoken_s,available_s,said_from,settled_at_s,latency_s
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,opening,correct,True,True,70.81,71.11,span,30.4524,0.0
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,closing,missing,True,False,785.58,786.466,span,,inf
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,agenda/equipment issues,correct,True,True,820.57,820.87,span,57.5174,0.0
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,chitchat,invented,,True,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,project specs and roles of participants,correct,True,True,108.89,109.19,span,31.1012,0.0
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,new requirements,invented,,True,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,user target group,invented,,True,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,interface specialist presentation,correctly_empty,,False,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,marketing expert presentation,correctly_empty,,False,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,industrial designer presentation,correctly_empty,,False,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,presentation of prototype(s),correctly_empty,,False,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,discussion,correct,True,True,738.92,740.485,span,111.7213,0.0
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,evaluation of prototype(s),correctly_empty,,False,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,evaluation of project process,correctly_empty,,False,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,costing,invented,,True,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,drawing exercise,correct,True,True,286.98,287.28,span,152.4873,0.0
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,project budget,correct,True,True,323.69,323.99,span,289.579,0.0
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,existing products,invented,,True,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,trendwatching,invented,,True,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,user requirements,invented,,True,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,"components, materials and energy sources",correct,True,True,555.6,556.863,span,401.5603,0.0
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,look and usability,correct,True,True,532.64,533.658,span,114.453,0.0
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,topics,multiselect,option,how to find when misplaced,invented,,True,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,actions,textarea,item,The Project Manager asked the team to work on these ideas before the next meeting.,correct,The Project Manager asked the team to work on these ideas before the next meeting.,"The Project Manager wants everyone to meet again in thirty minutes and work on these ideas and try to make a decision on what to do.
+The Project Manager wants everyone to decide what are the important ideas and what are the ones that they don't want.
+The Project Manager wants everyone to work on the technical parts of what they want to do.
+The Marketing Expert will think about the user requirement specifications.",754.29,755.012,llm,764.2868,9.274800000000027
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,actions,textarea,item,The Project Manager asked the team to decide which ideas are important and which ones the team does not want.,correct,The Project Manager asked the team to decide which ideas are important and which ones the team does not want.,"The Project Manager wants everyone to meet again in thirty minutes and work on these ideas and try to make a decision on what to do.
+The Project Manager wants everyone to decide what are the important ideas and what are the ones that they don't want.
+The Project Manager wants everyone to work on the technical parts of what they want to do.
+The Marketing Expert will think about the user requirement specifications.",765.91,766.21,llm,807.2942,41.08420000000001
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,actions,textarea,item,"The Project Manager asked the team to consider more of the technical parts, about what the team wants to do.",correct,"The Project Manager asked the team to consider more of the technical parts, about what the team wants to do.","The Project Manager wants everyone to meet again in thirty minutes and work on these ideas and try to make a decision on what to do.
+The Project Manager wants everyone to decide what are the important ideas and what are the ones that they don't want.
+The Project Manager wants everyone to work on the technical parts of what they want to do.
+The Marketing Expert will think about the user requirement specifications.",771.58,772.147,llm,807.2942,35.1472
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,actions,textarea,item,The Marketing Expert said that the Marketing Expert will think about the user requirement specifications.,missing,The Marketing Expert said that the Marketing Expert will think about the user requirement specifications.,"The Project Manager wants everyone to meet again in thirty minutes and work on these ideas and try to make a decision on what to do.
+The Project Manager wants everyone to decide what are the important ideas and what are the ones that they don't want.
+The Project Manager wants everyone to work on the technical parts of what they want to do.
+The Marketing Expert will think about the user requirement specifications.",803.4,803.7,llm,,inf
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert said that the Marketing Expert's daughter likes remote controls.,correct,The Marketing Expert said that the Marketing Expert's daughter likes remote controls.,"The Marketing Expert said that her daughter likes to eat and break remote controls.
+The Project Manager suggested that remote controls for children could be a great application.
+The Project Manager suggested making the remote control child-proof.
+The Marketing Expert said her daughter likes remote controls.
+The Marketing Expert said her daughter likes buttons which make a click sound.
+The Marketing Expert said her daughter eats remote controls.
+The Marketing Expert said the remote control has to be very robust because even if she's not very tall she's uh high enough so that uh when she throw it away it's uh.
+The User Interface Designer said the remote control should be unbreakable.
+The Marketing Expert said the remote control has to be nice looking.
+The Marketing Expert said the remote control should be colourful.
+The User Interface Designer said that colourful is not practical.
+The Marketing Expert said that nobody has colourful remote control.
+The Marketing Expert suggested that the remote control could be purple.
+The User Interface Designer asked how a colourful remote control would be practical.
+The User Interface Designer said that if the remote control is colourful, you will never find it.
+The Industrial Designer suggested that they can change colours.
+The Marketing Expert said that the remote control could change colours like phones.
+The Industrial Designer suggested that for children, the remote control could be one color.
+The Industrial Designer suggested that the remote control should be really small.
+The Project Manager asked if the remote control should be small.
+The Industrial Designer suggested that the remote control should not be so big.
+The Industrial Designer suggested that the remote control should not have too many buttons.
+The Marketing Expert asked if the remote control should be a universal remote control.
+The User Interface Designer said that if the remote control is monochrome, it is not like that.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold in your hand properly.
+The User Interface Designer said that the remote control should be palm-sized.
+The Industrial Designer suggested that they can change the colors of the frame.
+The Marketing Expert said that the remote control could change colors, at least the frame.
+The Marketing Expert said that people never find a good button in the right place.
+The Marketing Expert said that there is a problem in the design of that kind of remote control.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert asked if it makes sense to have a full touch screen remote control.
+The Project Manager suggested some kind of idea with a cellular phone with a screen that will tell you what.
+The User Interface Designer said no screens, it is too complex.
+The Industrial Designer said screens are too expensive.
+The Marketing Expert said that screens are too expensive for twelve Euro.
+The User Interface Designer said that screens are not too expensive.
+The User Interface Designer said no screens on remote controls.
+The Marketing Expert thought it could be only a screen which would change depending on the use or even the user.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert said that the remote control should be adaptable.
+The Industrial Designer said that it is like two types, no, people are right handed or left handed.
+The Industrial Designer said that because he is left handed, he uses like this.
+The Industrial Designer said that if you are right handed, you use like this.
+The Industrial Designer said that your switch on and off should be on.
+The Project Manager said that the remote control should be adaptable.
+The User Interface Designer said that the remote control should be adaptable.
+The Marketing Expert said that maybe, if it is possible, the remote control should be adaptable.
+The User Interface Designer asked how many actions they need to implement in it.
+The Industrial Designer suggested that they can keep two switches and then they can only make one working.
+The Industrial Designer suggested that they can adapt only one switch.
+The User Interface Designer said that if it is less than three, then they can make it like a three mental states.
+The Marketing Expert asked if the User Interface Designer meant three buttons.
+The User Interface Designer said that if it is less than three, then they can make it like three mental states.
+The User Interface Designer said that they can just make it controlled by a brain.
+The Project Manager said that if it is a universal remote control, it may need more than three possibilities.
+The Marketing Expert said that there are more than three actions that you may want to do at a given time.
+The User Interface Designer asked what you usually do for standard actions.
+The User Interface Designer said that you change channels and adjust volume for standard actions.
+The Marketing Expert said that when you change channels, you can have you can just go to the next one or go to channel twenty five.
+The Marketing Expert said that it is more complex to go to channel twenty five.
+The User Interface Designer asked if you do this.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she is only using three or four channels.
+The Marketing Expert said that you can only have one bit.
+The Marketing Expert said that she changes channel like this.
+The Marketing Expert said that she wants to go to twenty five, and then to ten.
+The Marketing Expert said that you can go back to the one you were before.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that they had that in other countries.
+The Marketing Expert said that the previous button is good.
+The Marketing Expert said that even the history so you could like undo previous of the previous.
+The Marketing Expert said that you can watch what your ah you could also record your record your sequence of actions.
+The Industrial Designer said that you can look at what the other people have used there or remote controls.
+The Industrial Designer said that you can look at which channels the viewer used.",340.77,341.808,llm,358.4742,16.666200000000003
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,item,"The Marketing Expert said, in answer to the User Interface Designer's question whether the daughter likes them to eat, that the daughter likes remote controls mainly to eat and to break.",missing,"The Marketing Expert said, in answer to the User Interface Designer's question whether the daughter likes them to eat, that the daughter likes remote controls mainly to eat and to break.","The Marketing Expert said that her daughter likes to eat and break remote controls.
+The Project Manager suggested that remote controls for children could be a great application.
+The Project Manager suggested making the remote control child-proof.
+The Marketing Expert said her daughter likes remote controls.
+The Marketing Expert said her daughter likes buttons which make a click sound.
+The Marketing Expert said her daughter eats remote controls.
+The Marketing Expert said the remote control has to be very robust because even if she's not very tall she's uh high enough so that uh when she throw it away it's uh.
+The User Interface Designer said the remote control should be unbreakable.
+The Marketing Expert said the remote control has to be nice looking.
+The Marketing Expert said the remote control should be colourful.
+The User Interface Designer said that colourful is not practical.
+The Marketing Expert said that nobody has colourful remote control.
+The Marketing Expert suggested that the remote control could be purple.
+The User Interface Designer asked how a colourful remote control would be practical.
+The User Interface Designer said that if the remote control is colourful, you will never find it.
+The Industrial Designer suggested that they can change colours.
+The Marketing Expert said that the remote control could change colours like phones.
+The Industrial Designer suggested that for children, the remote control could be one color.
+The Industrial Designer suggested that the remote control should be really small.
+The Project Manager asked if the remote control should be small.
+The Industrial Designer suggested that the remote control should not be so big.
+The Industrial Designer suggested that the remote control should not have too many buttons.
+The Marketing Expert asked if the remote control should be a universal remote control.
+The User Interface Designer said that if the remote control is monochrome, it is not like that.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold in your hand properly.
+The User Interface Designer said that the remote control should be palm-sized.
+The Industrial Designer suggested that they can change the colors of the frame.
+The Marketing Expert said that the remote control could change colors, at least the frame.
+The Marketing Expert said that people never find a good button in the right place.
+The Marketing Expert said that there is a problem in the design of that kind of remote control.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert asked if it makes sense to have a full touch screen remote control.
+The Project Manager suggested some kind of idea with a cellular phone with a screen that will tell you what.
+The User Interface Designer said no screens, it is too complex.
+The Industrial Designer said screens are too expensive.
+The Marketing Expert said that screens are too expensive for twelve Euro.
+The User Interface Designer said that screens are not too expensive.
+The User Interface Designer said no screens on remote controls.
+The Marketing Expert thought it could be only a screen which would change depending on the use or even the user.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert said that the remote control should be adaptable.
+The Industrial Designer said that it is like two types, no, people are right handed or left handed.
+The Industrial Designer said that because he is left handed, he uses like this.
+The Industrial Designer said that if you are right handed, you use like this.
+The Industrial Designer said that your switch on and off should be on.
+The Project Manager said that the remote control should be adaptable.
+The User Interface Designer said that the remote control should be adaptable.
+The Marketing Expert said that maybe, if it is possible, the remote control should be adaptable.
+The User Interface Designer asked how many actions they need to implement in it.
+The Industrial Designer suggested that they can keep two switches and then they can only make one working.
+The Industrial Designer suggested that they can adapt only one switch.
+The User Interface Designer said that if it is less than three, then they can make it like a three mental states.
+The Marketing Expert asked if the User Interface Designer meant three buttons.
+The User Interface Designer said that if it is less than three, then they can make it like three mental states.
+The User Interface Designer said that they can just make it controlled by a brain.
+The Project Manager said that if it is a universal remote control, it may need more than three possibilities.
+The Marketing Expert said that there are more than three actions that you may want to do at a given time.
+The User Interface Designer asked what you usually do for standard actions.
+The User Interface Designer said that you change channels and adjust volume for standard actions.
+The Marketing Expert said that when you change channels, you can have you can just go to the next one or go to channel twenty five.
+The Marketing Expert said that it is more complex to go to channel twenty five.
+The User Interface Designer asked if you do this.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she is only using three or four channels.
+The Marketing Expert said that you can only have one bit.
+The Marketing Expert said that she changes channel like this.
+The Marketing Expert said that she wants to go to twenty five, and then to ten.
+The Marketing Expert said that you can go back to the one you were before.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that they had that in other countries.
+The Marketing Expert said that the previous button is good.
+The Marketing Expert said that even the history so you could like undo previous of the previous.
+The Marketing Expert said that you can watch what your ah you could also record your record your sequence of actions.
+The Industrial Designer said that you can look at what the other people have used there or remote controls.
+The Industrial Designer said that you can look at which channels the viewer used.",347.33,348.12,llm,,inf
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,item,The Project Manager proposed children-proof remote controls as a great application.,correct,The Project Manager proposed children-proof remote controls as a great application.,"The Marketing Expert said that her daughter likes to eat and break remote controls.
+The Project Manager suggested that remote controls for children could be a great application.
+The Project Manager suggested making the remote control child-proof.
+The Marketing Expert said her daughter likes remote controls.
+The Marketing Expert said her daughter likes buttons which make a click sound.
+The Marketing Expert said her daughter eats remote controls.
+The Marketing Expert said the remote control has to be very robust because even if she's not very tall she's uh high enough so that uh when she throw it away it's uh.
+The User Interface Designer said the remote control should be unbreakable.
+The Marketing Expert said the remote control has to be nice looking.
+The Marketing Expert said the remote control should be colourful.
+The User Interface Designer said that colourful is not practical.
+The Marketing Expert said that nobody has colourful remote control.
+The Marketing Expert suggested that the remote control could be purple.
+The User Interface Designer asked how a colourful remote control would be practical.
+The User Interface Designer said that if the remote control is colourful, you will never find it.
+The Industrial Designer suggested that they can change colours.
+The Marketing Expert said that the remote control could change colours like phones.
+The Industrial Designer suggested that for children, the remote control could be one color.
+The Industrial Designer suggested that the remote control should be really small.
+The Project Manager asked if the remote control should be small.
+The Industrial Designer suggested that the remote control should not be so big.
+The Industrial Designer suggested that the remote control should not have too many buttons.
+The Marketing Expert asked if the remote control should be a universal remote control.
+The User Interface Designer said that if the remote control is monochrome, it is not like that.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold in your hand properly.
+The User Interface Designer said that the remote control should be palm-sized.
+The Industrial Designer suggested that they can change the colors of the frame.
+The Marketing Expert said that the remote control could change colors, at least the frame.
+The Marketing Expert said that people never find a good button in the right place.
+The Marketing Expert said that there is a problem in the design of that kind of remote control.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert asked if it makes sense to have a full touch screen remote control.
+The Project Manager suggested some kind of idea with a cellular phone with a screen that will tell you what.
+The User Interface Designer said no screens, it is too complex.
+The Industrial Designer said screens are too expensive.
+The Marketing Expert said that screens are too expensive for twelve Euro.
+The User Interface Designer said that screens are not too expensive.
+The User Interface Designer said no screens on remote controls.
+The Marketing Expert thought it could be only a screen which would change depending on the use or even the user.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert said that the remote control should be adaptable.
+The Industrial Designer said that it is like two types, no, people are right handed or left handed.
+The Industrial Designer said that because he is left handed, he uses like this.
+The Industrial Designer said that if you are right handed, you use like this.
+The Industrial Designer said that your switch on and off should be on.
+The Project Manager said that the remote control should be adaptable.
+The User Interface Designer said that the remote control should be adaptable.
+The Marketing Expert said that maybe, if it is possible, the remote control should be adaptable.
+The User Interface Designer asked how many actions they need to implement in it.
+The Industrial Designer suggested that they can keep two switches and then they can only make one working.
+The Industrial Designer suggested that they can adapt only one switch.
+The User Interface Designer said that if it is less than three, then they can make it like a three mental states.
+The Marketing Expert asked if the User Interface Designer meant three buttons.
+The User Interface Designer said that if it is less than three, then they can make it like three mental states.
+The User Interface Designer said that they can just make it controlled by a brain.
+The Project Manager said that if it is a universal remote control, it may need more than three possibilities.
+The Marketing Expert said that there are more than three actions that you may want to do at a given time.
+The User Interface Designer asked what you usually do for standard actions.
+The User Interface Designer said that you change channels and adjust volume for standard actions.
+The Marketing Expert said that when you change channels, you can have you can just go to the next one or go to channel twenty five.
+The Marketing Expert said that it is more complex to go to channel twenty five.
+The User Interface Designer asked if you do this.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she is only using three or four channels.
+The Marketing Expert said that you can only have one bit.
+The Marketing Expert said that she changes channel like this.
+The Marketing Expert said that she wants to go to twenty five, and then to ten.
+The Marketing Expert said that you can go back to the one you were before.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that they had that in other countries.
+The Marketing Expert said that the previous button is good.
+The Marketing Expert said that even the history so you could like undo previous of the previous.
+The Marketing Expert said that you can watch what your ah you could also record your record your sequence of actions.
+The Industrial Designer said that you can look at what the other people have used there or remote controls.
+The Industrial Designer said that you can look at which channels the viewer used.",351.15,352.165,llm,358.4742,6.309199999999976
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert said that the Marketing Expert's daughter likes buttons which make a click.,correct,The Marketing Expert said that the Marketing Expert's daughter likes buttons which make a click.,"The Marketing Expert said that her daughter likes to eat and break remote controls.
+The Project Manager suggested that remote controls for children could be a great application.
+The Project Manager suggested making the remote control child-proof.
+The Marketing Expert said her daughter likes remote controls.
+The Marketing Expert said her daughter likes buttons which make a click sound.
+The Marketing Expert said her daughter eats remote controls.
+The Marketing Expert said the remote control has to be very robust because even if she's not very tall she's uh high enough so that uh when she throw it away it's uh.
+The User Interface Designer said the remote control should be unbreakable.
+The Marketing Expert said the remote control has to be nice looking.
+The Marketing Expert said the remote control should be colourful.
+The User Interface Designer said that colourful is not practical.
+The Marketing Expert said that nobody has colourful remote control.
+The Marketing Expert suggested that the remote control could be purple.
+The User Interface Designer asked how a colourful remote control would be practical.
+The User Interface Designer said that if the remote control is colourful, you will never find it.
+The Industrial Designer suggested that they can change colours.
+The Marketing Expert said that the remote control could change colours like phones.
+The Industrial Designer suggested that for children, the remote control could be one color.
+The Industrial Designer suggested that the remote control should be really small.
+The Project Manager asked if the remote control should be small.
+The Industrial Designer suggested that the remote control should not be so big.
+The Industrial Designer suggested that the remote control should not have too many buttons.
+The Marketing Expert asked if the remote control should be a universal remote control.
+The User Interface Designer said that if the remote control is monochrome, it is not like that.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold in your hand properly.
+The User Interface Designer said that the remote control should be palm-sized.
+The Industrial Designer suggested that they can change the colors of the frame.
+The Marketing Expert said that the remote control could change colors, at least the frame.
+The Marketing Expert said that people never find a good button in the right place.
+The Marketing Expert said that there is a problem in the design of that kind of remote control.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert asked if it makes sense to have a full touch screen remote control.
+The Project Manager suggested some kind of idea with a cellular phone with a screen that will tell you what.
+The User Interface Designer said no screens, it is too complex.
+The Industrial Designer said screens are too expensive.
+The Marketing Expert said that screens are too expensive for twelve Euro.
+The User Interface Designer said that screens are not too expensive.
+The User Interface Designer said no screens on remote controls.
+The Marketing Expert thought it could be only a screen which would change depending on the use or even the user.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert said that the remote control should be adaptable.
+The Industrial Designer said that it is like two types, no, people are right handed or left handed.
+The Industrial Designer said that because he is left handed, he uses like this.
+The Industrial Designer said that if you are right handed, you use like this.
+The Industrial Designer said that your switch on and off should be on.
+The Project Manager said that the remote control should be adaptable.
+The User Interface Designer said that the remote control should be adaptable.
+The Marketing Expert said that maybe, if it is possible, the remote control should be adaptable.
+The User Interface Designer asked how many actions they need to implement in it.
+The Industrial Designer suggested that they can keep two switches and then they can only make one working.
+The Industrial Designer suggested that they can adapt only one switch.
+The User Interface Designer said that if it is less than three, then they can make it like a three mental states.
+The Marketing Expert asked if the User Interface Designer meant three buttons.
+The User Interface Designer said that if it is less than three, then they can make it like three mental states.
+The User Interface Designer said that they can just make it controlled by a brain.
+The Project Manager said that if it is a universal remote control, it may need more than three possibilities.
+The Marketing Expert said that there are more than three actions that you may want to do at a given time.
+The User Interface Designer asked what you usually do for standard actions.
+The User Interface Designer said that you change channels and adjust volume for standard actions.
+The Marketing Expert said that when you change channels, you can have you can just go to the next one or go to channel twenty five.
+The Marketing Expert said that it is more complex to go to channel twenty five.
+The User Interface Designer asked if you do this.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she is only using three or four channels.
+The Marketing Expert said that you can only have one bit.
+The Marketing Expert said that she changes channel like this.
+The Marketing Expert said that she wants to go to twenty five, and then to ten.
+The Marketing Expert said that you can go back to the one you were before.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that they had that in other countries.
+The Marketing Expert said that the previous button is good.
+The Marketing Expert said that even the history so you could like undo previous of the previous.
+The Marketing Expert said that you can watch what your ah you could also record your record your sequence of actions.
+The Industrial Designer said that you can look at what the other people have used there or remote controls.
+The Industrial Designer said that you can look at which channels the viewer used.",359.2,359.747,llm,389.1614,29.4144
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert said that the remote control has to click.,missing,The Marketing Expert said that the remote control has to click.,"The Marketing Expert said that her daughter likes to eat and break remote controls.
+The Project Manager suggested that remote controls for children could be a great application.
+The Project Manager suggested making the remote control child-proof.
+The Marketing Expert said her daughter likes remote controls.
+The Marketing Expert said her daughter likes buttons which make a click sound.
+The Marketing Expert said her daughter eats remote controls.
+The Marketing Expert said the remote control has to be very robust because even if she's not very tall she's uh high enough so that uh when she throw it away it's uh.
+The User Interface Designer said the remote control should be unbreakable.
+The Marketing Expert said the remote control has to be nice looking.
+The Marketing Expert said the remote control should be colourful.
+The User Interface Designer said that colourful is not practical.
+The Marketing Expert said that nobody has colourful remote control.
+The Marketing Expert suggested that the remote control could be purple.
+The User Interface Designer asked how a colourful remote control would be practical.
+The User Interface Designer said that if the remote control is colourful, you will never find it.
+The Industrial Designer suggested that they can change colours.
+The Marketing Expert said that the remote control could change colours like phones.
+The Industrial Designer suggested that for children, the remote control could be one color.
+The Industrial Designer suggested that the remote control should be really small.
+The Project Manager asked if the remote control should be small.
+The Industrial Designer suggested that the remote control should not be so big.
+The Industrial Designer suggested that the remote control should not have too many buttons.
+The Marketing Expert asked if the remote control should be a universal remote control.
+The User Interface Designer said that if the remote control is monochrome, it is not like that.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold in your hand properly.
+The User Interface Designer said that the remote control should be palm-sized.
+The Industrial Designer suggested that they can change the colors of the frame.
+The Marketing Expert said that the remote control could change colors, at least the frame.
+The Marketing Expert said that people never find a good button in the right place.
+The Marketing Expert said that there is a problem in the design of that kind of remote control.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert asked if it makes sense to have a full touch screen remote control.
+The Project Manager suggested some kind of idea with a cellular phone with a screen that will tell you what.
+The User Interface Designer said no screens, it is too complex.
+The Industrial Designer said screens are too expensive.
+The Marketing Expert said that screens are too expensive for twelve Euro.
+The User Interface Designer said that screens are not too expensive.
+The User Interface Designer said no screens on remote controls.
+The Marketing Expert thought it could be only a screen which would change depending on the use or even the user.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert said that the remote control should be adaptable.
+The Industrial Designer said that it is like two types, no, people are right handed or left handed.
+The Industrial Designer said that because he is left handed, he uses like this.
+The Industrial Designer said that if you are right handed, you use like this.
+The Industrial Designer said that your switch on and off should be on.
+The Project Manager said that the remote control should be adaptable.
+The User Interface Designer said that the remote control should be adaptable.
+The Marketing Expert said that maybe, if it is possible, the remote control should be adaptable.
+The User Interface Designer asked how many actions they need to implement in it.
+The Industrial Designer suggested that they can keep two switches and then they can only make one working.
+The Industrial Designer suggested that they can adapt only one switch.
+The User Interface Designer said that if it is less than three, then they can make it like a three mental states.
+The Marketing Expert asked if the User Interface Designer meant three buttons.
+The User Interface Designer said that if it is less than three, then they can make it like three mental states.
+The User Interface Designer said that they can just make it controlled by a brain.
+The Project Manager said that if it is a universal remote control, it may need more than three possibilities.
+The Marketing Expert said that there are more than three actions that you may want to do at a given time.
+The User Interface Designer asked what you usually do for standard actions.
+The User Interface Designer said that you change channels and adjust volume for standard actions.
+The Marketing Expert said that when you change channels, you can have you can just go to the next one or go to channel twenty five.
+The Marketing Expert said that it is more complex to go to channel twenty five.
+The User Interface Designer asked if you do this.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she is only using three or four channels.
+The Marketing Expert said that you can only have one bit.
+The Marketing Expert said that she changes channel like this.
+The Marketing Expert said that she wants to go to twenty five, and then to ten.
+The Marketing Expert said that you can go back to the one you were before.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that they had that in other countries.
+The Marketing Expert said that the previous button is good.
+The Marketing Expert said that even the history so you could like undo previous of the previous.
+The Marketing Expert said that you can watch what your ah you could also record your record your sequence of actions.
+The Industrial Designer said that you can look at what the other people have used there or remote controls.
+The Industrial Designer said that you can look at which channels the viewer used.",361.48,361.78,llm,,inf
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,item,The Project Manager asked whether the remote controls should maybe be waterproof.,missing,The Project Manager asked whether the remote controls should maybe be waterproof.,"The Marketing Expert said that her daughter likes to eat and break remote controls.
+The Project Manager suggested that remote controls for children could be a great application.
+The Project Manager suggested making the remote control child-proof.
+The Marketing Expert said her daughter likes remote controls.
+The Marketing Expert said her daughter likes buttons which make a click sound.
+The Marketing Expert said her daughter eats remote controls.
+The Marketing Expert said the remote control has to be very robust because even if she's not very tall she's uh high enough so that uh when she throw it away it's uh.
+The User Interface Designer said the remote control should be unbreakable.
+The Marketing Expert said the remote control has to be nice looking.
+The Marketing Expert said the remote control should be colourful.
+The User Interface Designer said that colourful is not practical.
+The Marketing Expert said that nobody has colourful remote control.
+The Marketing Expert suggested that the remote control could be purple.
+The User Interface Designer asked how a colourful remote control would be practical.
+The User Interface Designer said that if the remote control is colourful, you will never find it.
+The Industrial Designer suggested that they can change colours.
+The Marketing Expert said that the remote control could change colours like phones.
+The Industrial Designer suggested that for children, the remote control could be one color.
+The Industrial Designer suggested that the remote control should be really small.
+The Project Manager asked if the remote control should be small.
+The Industrial Designer suggested that the remote control should not be so big.
+The Industrial Designer suggested that the remote control should not have too many buttons.
+The Marketing Expert asked if the remote control should be a universal remote control.
+The User Interface Designer said that if the remote control is monochrome, it is not like that.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold in your hand properly.
+The User Interface Designer said that the remote control should be palm-sized.
+The Industrial Designer suggested that they can change the colors of the frame.
+The Marketing Expert said that the remote control could change colors, at least the frame.
+The Marketing Expert said that people never find a good button in the right place.
+The Marketing Expert said that there is a problem in the design of that kind of remote control.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert asked if it makes sense to have a full touch screen remote control.
+The Project Manager suggested some kind of idea with a cellular phone with a screen that will tell you what.
+The User Interface Designer said no screens, it is too complex.
+The Industrial Designer said screens are too expensive.
+The Marketing Expert said that screens are too expensive for twelve Euro.
+The User Interface Designer said that screens are not too expensive.
+The User Interface Designer said no screens on remote controls.
+The Marketing Expert thought it could be only a screen which would change depending on the use or even the user.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert said that the remote control should be adaptable.
+The Industrial Designer said that it is like two types, no, people are right handed or left handed.
+The Industrial Designer said that because he is left handed, he uses like this.
+The Industrial Designer said that if you are right handed, you use like this.
+The Industrial Designer said that your switch on and off should be on.
+The Project Manager said that the remote control should be adaptable.
+The User Interface Designer said that the remote control should be adaptable.
+The Marketing Expert said that maybe, if it is possible, the remote control should be adaptable.
+The User Interface Designer asked how many actions they need to implement in it.
+The Industrial Designer suggested that they can keep two switches and then they can only make one working.
+The Industrial Designer suggested that they can adapt only one switch.
+The User Interface Designer said that if it is less than three, then they can make it like a three mental states.
+The Marketing Expert asked if the User Interface Designer meant three buttons.
+The User Interface Designer said that if it is less than three, then they can make it like three mental states.
+The User Interface Designer said that they can just make it controlled by a brain.
+The Project Manager said that if it is a universal remote control, it may need more than three possibilities.
+The Marketing Expert said that there are more than three actions that you may want to do at a given time.
+The User Interface Designer asked what you usually do for standard actions.
+The User Interface Designer said that you change channels and adjust volume for standard actions.
+The Marketing Expert said that when you change channels, you can have you can just go to the next one or go to channel twenty five.
+The Marketing Expert said that it is more complex to go to channel twenty five.
+The User Interface Designer asked if you do this.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she is only using three or four channels.
+The Marketing Expert said that you can only have one bit.
+The Marketing Expert said that she changes channel like this.
+The Marketing Expert said that she wants to go to twenty five, and then to ten.
+The Marketing Expert said that you can go back to the one you were before.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that they had that in other countries.
+The Marketing Expert said that the previous button is good.
+The Marketing Expert said that even the history so you could like undo previous of the previous.
+The Marketing Expert said that you can watch what your ah you could also record your record your sequence of actions.
+The Industrial Designer said that you can look at what the other people have used there or remote controls.
+The Industrial Designer said that you can look at which channels the viewer used.",365.83,367.336,llm,,inf
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert said that the remote control has to be baby proof.,missing,The Marketing Expert said that the remote control has to be baby proof.,"The Marketing Expert said that her daughter likes to eat and break remote controls.
+The Project Manager suggested that remote controls for children could be a great application.
+The Project Manager suggested making the remote control child-proof.
+The Marketing Expert said her daughter likes remote controls.
+The Marketing Expert said her daughter likes buttons which make a click sound.
+The Marketing Expert said her daughter eats remote controls.
+The Marketing Expert said the remote control has to be very robust because even if she's not very tall she's uh high enough so that uh when she throw it away it's uh.
+The User Interface Designer said the remote control should be unbreakable.
+The Marketing Expert said the remote control has to be nice looking.
+The Marketing Expert said the remote control should be colourful.
+The User Interface Designer said that colourful is not practical.
+The Marketing Expert said that nobody has colourful remote control.
+The Marketing Expert suggested that the remote control could be purple.
+The User Interface Designer asked how a colourful remote control would be practical.
+The User Interface Designer said that if the remote control is colourful, you will never find it.
+The Industrial Designer suggested that they can change colours.
+The Marketing Expert said that the remote control could change colours like phones.
+The Industrial Designer suggested that for children, the remote control could be one color.
+The Industrial Designer suggested that the remote control should be really small.
+The Project Manager asked if the remote control should be small.
+The Industrial Designer suggested that the remote control should not be so big.
+The Industrial Designer suggested that the remote control should not have too many buttons.
+The Marketing Expert asked if the remote control should be a universal remote control.
+The User Interface Designer said that if the remote control is monochrome, it is not like that.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold in your hand properly.
+The User Interface Designer said that the remote control should be palm-sized.
+The Industrial Designer suggested that they can change the colors of the frame.
+The Marketing Expert said that the remote control could change colors, at least the frame.
+The Marketing Expert said that people never find a good button in the right place.
+The Marketing Expert said that there is a problem in the design of that kind of remote control.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert asked if it makes sense to have a full touch screen remote control.
+The Project Manager suggested some kind of idea with a cellular phone with a screen that will tell you what.
+The User Interface Designer said no screens, it is too complex.
+The Industrial Designer said screens are too expensive.
+The Marketing Expert said that screens are too expensive for twelve Euro.
+The User Interface Designer said that screens are not too expensive.
+The User Interface Designer said no screens on remote controls.
+The Marketing Expert thought it could be only a screen which would change depending on the use or even the user.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert said that the remote control should be adaptable.
+The Industrial Designer said that it is like two types, no, people are right handed or left handed.
+The Industrial Designer said that because he is left handed, he uses like this.
+The Industrial Designer said that if you are right handed, you use like this.
+The Industrial Designer said that your switch on and off should be on.
+The Project Manager said that the remote control should be adaptable.
+The User Interface Designer said that the remote control should be adaptable.
+The Marketing Expert said that maybe, if it is possible, the remote control should be adaptable.
+The User Interface Designer asked how many actions they need to implement in it.
+The Industrial Designer suggested that they can keep two switches and then they can only make one working.
+The Industrial Designer suggested that they can adapt only one switch.
+The User Interface Designer said that if it is less than three, then they can make it like a three mental states.
+The Marketing Expert asked if the User Interface Designer meant three buttons.
+The User Interface Designer said that if it is less than three, then they can make it like three mental states.
+The User Interface Designer said that they can just make it controlled by a brain.
+The Project Manager said that if it is a universal remote control, it may need more than three possibilities.
+The Marketing Expert said that there are more than three actions that you may want to do at a given time.
+The User Interface Designer asked what you usually do for standard actions.
+The User Interface Designer said that you change channels and adjust volume for standard actions.
+The Marketing Expert said that when you change channels, you can have you can just go to the next one or go to channel twenty five.
+The Marketing Expert said that it is more complex to go to channel twenty five.
+The User Interface Designer asked if you do this.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she is only using three or four channels.
+The Marketing Expert said that you can only have one bit.
+The Marketing Expert said that she changes channel like this.
+The Marketing Expert said that she wants to go to twenty five, and then to ten.
+The Marketing Expert said that you can go back to the one you were before.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that they had that in other countries.
+The Marketing Expert said that the previous button is good.
+The Marketing Expert said that even the history so you could like undo previous of the previous.
+The Marketing Expert said that you can watch what your ah you could also record your record your sequence of actions.
+The Industrial Designer said that you can look at what the other people have used there or remote controls.
+The Industrial Designer said that you can look at which channels the viewer used.",368.04,368.829,llm,,inf
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert said that the remote control mainly has to be very robust.,correct,The Marketing Expert said that the remote control mainly has to be very robust.,"The Marketing Expert said that her daughter likes to eat and break remote controls.
+The Project Manager suggested that remote controls for children could be a great application.
+The Project Manager suggested making the remote control child-proof.
+The Marketing Expert said her daughter likes remote controls.
+The Marketing Expert said her daughter likes buttons which make a click sound.
+The Marketing Expert said her daughter eats remote controls.
+The Marketing Expert said the remote control has to be very robust because even if she's not very tall she's uh high enough so that uh when she throw it away it's uh.
+The User Interface Designer said the remote control should be unbreakable.
+The Marketing Expert said the remote control has to be nice looking.
+The Marketing Expert said the remote control should be colourful.
+The User Interface Designer said that colourful is not practical.
+The Marketing Expert said that nobody has colourful remote control.
+The Marketing Expert suggested that the remote control could be purple.
+The User Interface Designer asked how a colourful remote control would be practical.
+The User Interface Designer said that if the remote control is colourful, you will never find it.
+The Industrial Designer suggested that they can change colours.
+The Marketing Expert said that the remote control could change colours like phones.
+The Industrial Designer suggested that for children, the remote control could be one color.
+The Industrial Designer suggested that the remote control should be really small.
+The Project Manager asked if the remote control should be small.
+The Industrial Designer suggested that the remote control should not be so big.
+The Industrial Designer suggested that the remote control should not have too many buttons.
+The Marketing Expert asked if the remote control should be a universal remote control.
+The User Interface Designer said that if the remote control is monochrome, it is not like that.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold in your hand properly.
+The User Interface Designer said that the remote control should be palm-sized.
+The Industrial Designer suggested that they can change the colors of the frame.
+The Marketing Expert said that the remote control could change colors, at least the frame.
+The Marketing Expert said that people never find a good button in the right place.
+The Marketing Expert said that there is a problem in the design of that kind of remote control.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert asked if it makes sense to have a full touch screen remote control.
+The Project Manager suggested some kind of idea with a cellular phone with a screen that will tell you what.
+The User Interface Designer said no screens, it is too complex.
+The Industrial Designer said screens are too expensive.
+The Marketing Expert said that screens are too expensive for twelve Euro.
+The User Interface Designer said that screens are not too expensive.
+The User Interface Designer said no screens on remote controls.
+The Marketing Expert thought it could be only a screen which would change depending on the use or even the user.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert said that the remote control should be adaptable.
+The Industrial Designer said that it is like two types, no, people are right handed or left handed.
+The Industrial Designer said that because he is left handed, he uses like this.
+The Industrial Designer said that if you are right handed, you use like this.
+The Industrial Designer said that your switch on and off should be on.
+The Project Manager said that the remote control should be adaptable.
+The User Interface Designer said that the remote control should be adaptable.
+The Marketing Expert said that maybe, if it is possible, the remote control should be adaptable.
+The User Interface Designer asked how many actions they need to implement in it.
+The Industrial Designer suggested that they can keep two switches and then they can only make one working.
+The Industrial Designer suggested that they can adapt only one switch.
+The User Interface Designer said that if it is less than three, then they can make it like a three mental states.
+The Marketing Expert asked if the User Interface Designer meant three buttons.
+The User Interface Designer said that if it is less than three, then they can make it like three mental states.
+The User Interface Designer said that they can just make it controlled by a brain.
+The Project Manager said that if it is a universal remote control, it may need more than three possibilities.
+The Marketing Expert said that there are more than three actions that you may want to do at a given time.
+The User Interface Designer asked what you usually do for standard actions.
+The User Interface Designer said that you change channels and adjust volume for standard actions.
+The Marketing Expert said that when you change channels, you can have you can just go to the next one or go to channel twenty five.
+The Marketing Expert said that it is more complex to go to channel twenty five.
+The User Interface Designer asked if you do this.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she is only using three or four channels.
+The Marketing Expert said that you can only have one bit.
+The Marketing Expert said that she changes channel like this.
+The Marketing Expert said that she wants to go to twenty five, and then to ten.
+The Marketing Expert said that you can go back to the one you were before.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that they had that in other countries.
+The Marketing Expert said that the previous button is good.
+The Marketing Expert said that even the history so you could like undo previous of the previous.
+The Marketing Expert said that you can watch what your ah you could also record your record your sequence of actions.
+The Industrial Designer said that you can look at what the other people have used there or remote controls.
+The Industrial Designer said that you can look at which channels the viewer used.",371.83,372.914,llm,389.1614,16.247400000000027
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,item,The User Interface Designer said that the remote control should be unbreakable.,correct,The User Interface Designer said that the remote control should be unbreakable.,"The Marketing Expert said that her daughter likes to eat and break remote controls.
+The Project Manager suggested that remote controls for children could be a great application.
+The Project Manager suggested making the remote control child-proof.
+The Marketing Expert said her daughter likes remote controls.
+The Marketing Expert said her daughter likes buttons which make a click sound.
+The Marketing Expert said her daughter eats remote controls.
+The Marketing Expert said the remote control has to be very robust because even if she's not very tall she's uh high enough so that uh when she throw it away it's uh.
+The User Interface Designer said the remote control should be unbreakable.
+The Marketing Expert said the remote control has to be nice looking.
+The Marketing Expert said the remote control should be colourful.
+The User Interface Designer said that colourful is not practical.
+The Marketing Expert said that nobody has colourful remote control.
+The Marketing Expert suggested that the remote control could be purple.
+The User Interface Designer asked how a colourful remote control would be practical.
+The User Interface Designer said that if the remote control is colourful, you will never find it.
+The Industrial Designer suggested that they can change colours.
+The Marketing Expert said that the remote control could change colours like phones.
+The Industrial Designer suggested that for children, the remote control could be one color.
+The Industrial Designer suggested that the remote control should be really small.
+The Project Manager asked if the remote control should be small.
+The Industrial Designer suggested that the remote control should not be so big.
+The Industrial Designer suggested that the remote control should not have too many buttons.
+The Marketing Expert asked if the remote control should be a universal remote control.
+The User Interface Designer said that if the remote control is monochrome, it is not like that.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold in your hand properly.
+The User Interface Designer said that the remote control should be palm-sized.
+The Industrial Designer suggested that they can change the colors of the frame.
+The Marketing Expert said that the remote control could change colors, at least the frame.
+The Marketing Expert said that people never find a good button in the right place.
+The Marketing Expert said that there is a problem in the design of that kind of remote control.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert asked if it makes sense to have a full touch screen remote control.
+The Project Manager suggested some kind of idea with a cellular phone with a screen that will tell you what.
+The User Interface Designer said no screens, it is too complex.
+The Industrial Designer said screens are too expensive.
+The Marketing Expert said that screens are too expensive for twelve Euro.
+The User Interface Designer said that screens are not too expensive.
+The User Interface Designer said no screens on remote controls.
+The Marketing Expert thought it could be only a screen which would change depending on the use or even the user.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert said that the remote control should be adaptable.
+The Industrial Designer said that it is like two types, no, people are right handed or left handed.
+The Industrial Designer said that because he is left handed, he uses like this.
+The Industrial Designer said that if you are right handed, you use like this.
+The Industrial Designer said that your switch on and off should be on.
+The Project Manager said that the remote control should be adaptable.
+The User Interface Designer said that the remote control should be adaptable.
+The Marketing Expert said that maybe, if it is possible, the remote control should be adaptable.
+The User Interface Designer asked how many actions they need to implement in it.
+The Industrial Designer suggested that they can keep two switches and then they can only make one working.
+The Industrial Designer suggested that they can adapt only one switch.
+The User Interface Designer said that if it is less than three, then they can make it like a three mental states.
+The Marketing Expert asked if the User Interface Designer meant three buttons.
+The User Interface Designer said that if it is less than three, then they can make it like three mental states.
+The User Interface Designer said that they can just make it controlled by a brain.
+The Project Manager said that if it is a universal remote control, it may need more than three possibilities.
+The Marketing Expert said that there are more than three actions that you may want to do at a given time.
+The User Interface Designer asked what you usually do for standard actions.
+The User Interface Designer said that you change channels and adjust volume for standard actions.
+The Marketing Expert said that when you change channels, you can have you can just go to the next one or go to channel twenty five.
+The Marketing Expert said that it is more complex to go to channel twenty five.
+The User Interface Designer asked if you do this.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she is only using three or four channels.
+The Marketing Expert said that you can only have one bit.
+The Marketing Expert said that she changes channel like this.
+The Marketing Expert said that she wants to go to twenty five, and then to ten.
+The Marketing Expert said that you can go back to the one you were before.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that they had that in other countries.
+The Marketing Expert said that the previous button is good.
+The Marketing Expert said that even the history so you could like undo previous of the previous.
+The Marketing Expert said that you can watch what your ah you could also record your record your sequence of actions.
+The Industrial Designer said that you can look at what the other people have used there or remote controls.
+The Industrial Designer said that you can look at which channels the viewer used.",383.9,384.2,llm,389.1614,4.961400000000026
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert agreed that the remote control should be unbreakable.,missing,The Marketing Expert agreed that the remote control should be unbreakable.,"The Marketing Expert said that her daughter likes to eat and break remote controls.
+The Project Manager suggested that remote controls for children could be a great application.
+The Project Manager suggested making the remote control child-proof.
+The Marketing Expert said her daughter likes remote controls.
+The Marketing Expert said her daughter likes buttons which make a click sound.
+The Marketing Expert said her daughter eats remote controls.
+The Marketing Expert said the remote control has to be very robust because even if she's not very tall she's uh high enough so that uh when she throw it away it's uh.
+The User Interface Designer said the remote control should be unbreakable.
+The Marketing Expert said the remote control has to be nice looking.
+The Marketing Expert said the remote control should be colourful.
+The User Interface Designer said that colourful is not practical.
+The Marketing Expert said that nobody has colourful remote control.
+The Marketing Expert suggested that the remote control could be purple.
+The User Interface Designer asked how a colourful remote control would be practical.
+The User Interface Designer said that if the remote control is colourful, you will never find it.
+The Industrial Designer suggested that they can change colours.
+The Marketing Expert said that the remote control could change colours like phones.
+The Industrial Designer suggested that for children, the remote control could be one color.
+The Industrial Designer suggested that the remote control should be really small.
+The Project Manager asked if the remote control should be small.
+The Industrial Designer suggested that the remote control should not be so big.
+The Industrial Designer suggested that the remote control should not have too many buttons.
+The Marketing Expert asked if the remote control should be a universal remote control.
+The User Interface Designer said that if the remote control is monochrome, it is not like that.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold in your hand properly.
+The User Interface Designer said that the remote control should be palm-sized.
+The Industrial Designer suggested that they can change the colors of the frame.
+The Marketing Expert said that the remote control could change colors, at least the frame.
+The Marketing Expert said that people never find a good button in the right place.
+The Marketing Expert said that there is a problem in the design of that kind of remote control.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert asked if it makes sense to have a full touch screen remote control.
+The Project Manager suggested some kind of idea with a cellular phone with a screen that will tell you what.
+The User Interface Designer said no screens, it is too complex.
+The Industrial Designer said screens are too expensive.
+The Marketing Expert said that screens are too expensive for twelve Euro.
+The User Interface Designer said that screens are not too expensive.
+The User Interface Designer said no screens on remote controls.
+The Marketing Expert thought it could be only a screen which would change depending on the use or even the user.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert said that the remote control should be adaptable.
+The Industrial Designer said that it is like two types, no, people are right handed or left handed.
+The Industrial Designer said that because he is left handed, he uses like this.
+The Industrial Designer said that if you are right handed, you use like this.
+The Industrial Designer said that your switch on and off should be on.
+The Project Manager said that the remote control should be adaptable.
+The User Interface Designer said that the remote control should be adaptable.
+The Marketing Expert said that maybe, if it is possible, the remote control should be adaptable.
+The User Interface Designer asked how many actions they need to implement in it.
+The Industrial Designer suggested that they can keep two switches and then they can only make one working.
+The Industrial Designer suggested that they can adapt only one switch.
+The User Interface Designer said that if it is less than three, then they can make it like a three mental states.
+The Marketing Expert asked if the User Interface Designer meant three buttons.
+The User Interface Designer said that if it is less than three, then they can make it like three mental states.
+The User Interface Designer said that they can just make it controlled by a brain.
+The Project Manager said that if it is a universal remote control, it may need more than three possibilities.
+The Marketing Expert said that there are more than three actions that you may want to do at a given time.
+The User Interface Designer asked what you usually do for standard actions.
+The User Interface Designer said that you change channels and adjust volume for standard actions.
+The Marketing Expert said that when you change channels, you can have you can just go to the next one or go to channel twenty five.
+The Marketing Expert said that it is more complex to go to channel twenty five.
+The User Interface Designer asked if you do this.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she is only using three or four channels.
+The Marketing Expert said that you can only have one bit.
+The Marketing Expert said that she changes channel like this.
+The Marketing Expert said that she wants to go to twenty five, and then to ten.
+The Marketing Expert said that you can go back to the one you were before.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that they had that in other countries.
+The Marketing Expert said that the previous button is good.
+The Marketing Expert said that even the history so you could like undo previous of the previous.
+The Marketing Expert said that you can watch what your ah you could also record your record your sequence of actions.
+The Industrial Designer said that you can look at what the other people have used there or remote controls.
+The Industrial Designer said that you can look at which channels the viewer used.",385.28,385.723,llm,,inf
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,item,The Industrial Designer proposed having some child lock or something similar.,missing,The Industrial Designer proposed having some child lock or something similar.,"The Marketing Expert said that her daughter likes to eat and break remote controls.
+The Project Manager suggested that remote controls for children could be a great application.
+The Project Manager suggested making the remote control child-proof.
+The Marketing Expert said her daughter likes remote controls.
+The Marketing Expert said her daughter likes buttons which make a click sound.
+The Marketing Expert said her daughter eats remote controls.
+The Marketing Expert said the remote control has to be very robust because even if she's not very tall she's uh high enough so that uh when she throw it away it's uh.
+The User Interface Designer said the remote control should be unbreakable.
+The Marketing Expert said the remote control has to be nice looking.
+The Marketing Expert said the remote control should be colourful.
+The User Interface Designer said that colourful is not practical.
+The Marketing Expert said that nobody has colourful remote control.
+The Marketing Expert suggested that the remote control could be purple.
+The User Interface Designer asked how a colourful remote control would be practical.
+The User Interface Designer said that if the remote control is colourful, you will never find it.
+The Industrial Designer suggested that they can change colours.
+The Marketing Expert said that the remote control could change colours like phones.
+The Industrial Designer suggested that for children, the remote control could be one color.
+The Industrial Designer suggested that the remote control should be really small.
+The Project Manager asked if the remote control should be small.
+The Industrial Designer suggested that the remote control should not be so big.
+The Industrial Designer suggested that the remote control should not have too many buttons.
+The Marketing Expert asked if the remote control should be a universal remote control.
+The User Interface Designer said that if the remote control is monochrome, it is not like that.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold in your hand properly.
+The User Interface Designer said that the remote control should be palm-sized.
+The Industrial Designer suggested that they can change the colors of the frame.
+The Marketing Expert said that the remote control could change colors, at least the frame.
+The Marketing Expert said that people never find a good button in the right place.
+The Marketing Expert said that there is a problem in the design of that kind of remote control.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert asked if it makes sense to have a full touch screen remote control.
+The Project Manager suggested some kind of idea with a cellular phone with a screen that will tell you what.
+The User Interface Designer said no screens, it is too complex.
+The Industrial Designer said screens are too expensive.
+The Marketing Expert said that screens are too expensive for twelve Euro.
+The User Interface Designer said that screens are not too expensive.
+The User Interface Designer said no screens on remote controls.
+The Marketing Expert thought it could be only a screen which would change depending on the use or even the user.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert said that the remote control should be adaptable.
+The Industrial Designer said that it is like two types, no, people are right handed or left handed.
+The Industrial Designer said that because he is left handed, he uses like this.
+The Industrial Designer said that if you are right handed, you use like this.
+The Industrial Designer said that your switch on and off should be on.
+The Project Manager said that the remote control should be adaptable.
+The User Interface Designer said that the remote control should be adaptable.
+The Marketing Expert said that maybe, if it is possible, the remote control should be adaptable.
+The User Interface Designer asked how many actions they need to implement in it.
+The Industrial Designer suggested that they can keep two switches and then they can only make one working.
+The Industrial Designer suggested that they can adapt only one switch.
+The User Interface Designer said that if it is less than three, then they can make it like a three mental states.
+The Marketing Expert asked if the User Interface Designer meant three buttons.
+The User Interface Designer said that if it is less than three, then they can make it like three mental states.
+The User Interface Designer said that they can just make it controlled by a brain.
+The Project Manager said that if it is a universal remote control, it may need more than three possibilities.
+The Marketing Expert said that there are more than three actions that you may want to do at a given time.
+The User Interface Designer asked what you usually do for standard actions.
+The User Interface Designer said that you change channels and adjust volume for standard actions.
+The Marketing Expert said that when you change channels, you can have you can just go to the next one or go to channel twenty five.
+The Marketing Expert said that it is more complex to go to channel twenty five.
+The User Interface Designer asked if you do this.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she is only using three or four channels.
+The Marketing Expert said that you can only have one bit.
+The Marketing Expert said that she changes channel like this.
+The Marketing Expert said that she wants to go to twenty five, and then to ten.
+The Marketing Expert said that you can go back to the one you were before.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that they had that in other countries.
+The Marketing Expert said that the previous button is good.
+The Marketing Expert said that even the history so you could like undo previous of the previous.
+The Marketing Expert said that you can watch what your ah you could also record your record your sequence of actions.
+The Industrial Designer said that you can look at what the other people have used there or remote controls.
+The Industrial Designer said that you can look at which channels the viewer used.",387.91,388.353,llm,,inf
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer said that colourful is not practical.,invented,,The User Interface Designer said that colourful is not practical.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that nobody has colourful remote control.,invented,,The Marketing Expert said that nobody has colourful remote control.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert suggested that the remote control could be purple.,invented,,The Marketing Expert suggested that the remote control could be purple.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer asked how a colourful remote control would be practical.,invented,,The User Interface Designer asked how a colourful remote control would be practical.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,"The User Interface Designer said that if the remote control is colourful, you will never find it.",invented,,"The User Interface Designer said that if the remote control is colourful, you will never find it.",,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer suggested that they can change colours.,invented,,The Industrial Designer suggested that they can change colours.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that the remote control could change colours like phones.,invented,,The Marketing Expert said that the remote control could change colours like phones.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer suggested that the remote control should be really small.,invented,,The Industrial Designer suggested that the remote control should be really small.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Project Manager asked if the remote control should be small.,invented,,The Project Manager asked if the remote control should be small.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer suggested that the remote control should not be so big.,invented,,The Industrial Designer suggested that the remote control should not be so big.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer suggested that the remote control should not have too many buttons.,invented,,The Industrial Designer suggested that the remote control should not have too many buttons.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert asked if the remote control should be a universal remote control.,invented,,The Marketing Expert asked if the remote control should be a universal remote control.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,"The User Interface Designer said that if the remote control is monochrome, it is not like that.",invented,,"The User Interface Designer said that if the remote control is monochrome, it is not like that.",,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer said that the remote control should not be too large.,invented,,The User Interface Designer said that the remote control should not be too large.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Project Manager said that the remote control should not be too small.,invented,,The Project Manager said that the remote control should not be too small.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer said that the remote control should hold in your hand properly.,invented,,The Industrial Designer said that the remote control should hold in your hand properly.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer said that the remote control should be palm-sized.,invented,,The User Interface Designer said that the remote control should be palm-sized.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer suggested that they can change the colors of the frame.,invented,,The Industrial Designer suggested that they can change the colors of the frame.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,"The Marketing Expert said that the remote control could change colors, at least the frame.",invented,,"The Marketing Expert said that the remote control could change colors, at least the frame.",,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that people never find a good button in the right place.,invented,,The Marketing Expert said that people never find a good button in the right place.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that there is a problem in the design of that kind of remote control.,invented,,The Marketing Expert said that there is a problem in the design of that kind of remote control.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that she prefers to have the off button at the top right.,invented,,The Marketing Expert said that she prefers to have the off button at the top right.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that she would have her own design of the remote control.,invented,,The Marketing Expert said that she would have her own design of the remote control.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that the remote control is in fact just a full touch screen remote control.,invented,,The Marketing Expert said that the remote control is in fact just a full touch screen remote control.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert asked if it makes sense to have a full touch screen remote control.,invented,,The Marketing Expert asked if it makes sense to have a full touch screen remote control.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Project Manager suggested some kind of idea with a cellular phone with a screen that will tell you what.,invented,,The Project Manager suggested some kind of idea with a cellular phone with a screen that will tell you what.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,"The User Interface Designer said no screens, it is too complex.",invented,,"The User Interface Designer said no screens, it is too complex.",,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer said screens are too expensive.,invented,,The Industrial Designer said screens are too expensive.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that screens are too expensive for twelve Euro.,invented,,The Marketing Expert said that screens are too expensive for twelve Euro.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer said that screens are not too expensive.,invented,,The User Interface Designer said that screens are not too expensive.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer said no screens on remote controls.,invented,,The User Interface Designer said no screens on remote controls.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert thought it could be only a screen which would change depending on the use or even the user.,invented,,The Marketing Expert thought it could be only a screen which would change depending on the use or even the user.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that she prefers to have the off button at the top right.,invented,,The Marketing Expert said that she prefers to have the off button at the top right.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that she would have her own design of the remote control.,invented,,The Marketing Expert said that she would have her own design of the remote control.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that the remote control is in fact just a full touch screen remote control.,invented,,The Marketing Expert said that the remote control is in fact just a full touch screen remote control.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that the remote control should be adaptable.,invented,,The Marketing Expert said that the remote control should be adaptable.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,"The Industrial Designer said that it is like two types, no, people are right handed or left handed.",invented,,"The Industrial Designer said that it is like two types, no, people are right handed or left handed.",,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,"The Industrial Designer said that because he is left handed, he uses like this.",invented,,"The Industrial Designer said that because he is left handed, he uses like this.",,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,"The Industrial Designer said that if you are right handed, you use like this.",invented,,"The Industrial Designer said that if you are right handed, you use like this.",,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer said that your switch on and off should be on.,invented,,The Industrial Designer said that your switch on and off should be on.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Project Manager said that the remote control should be adaptable.,invented,,The Project Manager said that the remote control should be adaptable.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer said that the remote control should be adaptable.,invented,,The User Interface Designer said that the remote control should be adaptable.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,"The Marketing Expert said that maybe, if it is possible, the remote control should be adaptable.",invented,,"The Marketing Expert said that maybe, if it is possible, the remote control should be adaptable.",,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer asked how many actions they need to implement in it.,invented,,The User Interface Designer asked how many actions they need to implement in it.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer suggested that they can keep two switches and then they can only make one working.,invented,,The Industrial Designer suggested that they can keep two switches and then they can only make one working.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer suggested that they can adapt only one switch.,invented,,The Industrial Designer suggested that they can adapt only one switch.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,"The User Interface Designer said that if it is less than three, then they can make it like a three mental states.",invented,,"The User Interface Designer said that if it is less than three, then they can make it like a three mental states.",,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert asked if the User Interface Designer meant three buttons.,invented,,The Marketing Expert asked if the User Interface Designer meant three buttons.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,"The User Interface Designer said that if it is less than three, then they can make it like three mental states.",invented,,"The User Interface Designer said that if it is less than three, then they can make it like three mental states.",,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer said that they can just make it controlled by a brain.,invented,,The User Interface Designer said that they can just make it controlled by a brain.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,"The Project Manager said that if it is a universal remote control, it may need more than three possibilities.",invented,,"The Project Manager said that if it is a universal remote control, it may need more than three possibilities.",,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that there are more than three actions that you may want to do at a given time.,invented,,The Marketing Expert said that there are more than three actions that you may want to do at a given time.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer asked what you usually do for standard actions.,invented,,The User Interface Designer asked what you usually do for standard actions.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer said that you change channels and adjust volume for standard actions.,invented,,The User Interface Designer said that you change channels and adjust volume for standard actions.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,"The Marketing Expert said that when you change channels, you can have you can just go to the next one or go to channel twenty five.",invented,,"The Marketing Expert said that when you change channels, you can have you can just go to the next one or go to channel twenty five.",,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that it is more complex to go to channel twenty five.,invented,,The Marketing Expert said that it is more complex to go to channel twenty five.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer asked if you do this.,invented,,The User Interface Designer asked if you do this.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that she usually just changes channels.,invented,,The Marketing Expert said that she usually just changes channels.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that she is only using three or four channels.,invented,,The Marketing Expert said that she is only using three or four channels.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that you can only have one bit.,invented,,The Marketing Expert said that you can only have one bit.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that she changes channel like this.,invented,,The Marketing Expert said that she changes channel like this.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,"The Marketing Expert said that she wants to go to twenty five, and then to ten.",invented,,"The Marketing Expert said that she wants to go to twenty five, and then to ten.",,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that you can go back to the one you were before.,invented,,The Marketing Expert said that you can go back to the one you were before.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that a go back button is good.,invented,,The Marketing Expert said that a go back button is good.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that they had that in other countries.,invented,,The Marketing Expert said that they had that in other countries.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that the previous button is good.,invented,,The Marketing Expert said that the previous button is good.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that even the history so you could like undo previous of the previous.,invented,,The Marketing Expert said that even the history so you could like undo previous of the previous.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that you can watch what your ah you could also record your record your sequence of actions.,invented,,The Marketing Expert said that you can watch what your ah you could also record your record your sequence of actions.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer said that you can look at what the other people have used there or remote controls.,invented,,The Industrial Designer said that you can look at what the other people have used there or remote controls.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer said that you can look at which channels the viewer used.,invented,,The Industrial Designer said that you can look at which channels the viewer used.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_6,textarea,item,The Project Manager proposed children-proof remote controls as a great application.,missing,The Project Manager proposed children-proof remote controls as a great application.,"The Project Manager suggested making the remote control child-proof.
+The Marketing Expert suggested that the remote control should be baby-proof.
+The Marketing Expert said the remote control has to be very robust.
+The User Interface Designer said the remote control should be unbreakable.
+The Industrial Designer suggested a child lock or something.",351.15,352.165,llm,,inf
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_6,textarea,item,The Project Manager asked whether the remote controls should maybe be waterproof.,missing,The Project Manager asked whether the remote controls should maybe be waterproof.,"The Project Manager suggested making the remote control child-proof.
+The Marketing Expert suggested that the remote control should be baby-proof.
+The Marketing Expert said the remote control has to be very robust.
+The User Interface Designer said the remote control should be unbreakable.
+The Industrial Designer suggested a child lock or something.",365.83,367.336,llm,,inf
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_6,textarea,item,The Marketing Expert said that the remote control has to be baby proof.,correct,The Marketing Expert said that the remote control has to be baby proof.,"The Project Manager suggested making the remote control child-proof.
+The Marketing Expert suggested that the remote control should be baby-proof.
+The Marketing Expert said the remote control has to be very robust.
+The User Interface Designer said the remote control should be unbreakable.
+The Industrial Designer suggested a child lock or something.",368.04,368.829,llm,376.8542,8.025199999999984
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_6,textarea,item,The Marketing Expert said that the remote control mainly has to be very robust.,correct,The Marketing Expert said that the remote control mainly has to be very robust.,"The Project Manager suggested making the remote control child-proof.
+The Marketing Expert suggested that the remote control should be baby-proof.
+The Marketing Expert said the remote control has to be very robust.
+The User Interface Designer said the remote control should be unbreakable.
+The Industrial Designer suggested a child lock or something.",371.83,372.914,llm,397.3469,24.432900000000018
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_6,textarea,item,The User Interface Designer said that the remote control should be unbreakable.,correct,The User Interface Designer said that the remote control should be unbreakable.,"The Project Manager suggested making the remote control child-proof.
+The Marketing Expert suggested that the remote control should be baby-proof.
+The Marketing Expert said the remote control has to be very robust.
+The User Interface Designer said the remote control should be unbreakable.
+The Industrial Designer suggested a child lock or something.",383.9,384.2,llm,389.1614,4.961400000000026
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_6,textarea,item,The Marketing Expert agreed that the remote control should be unbreakable.,missing,The Marketing Expert agreed that the remote control should be unbreakable.,"The Project Manager suggested making the remote control child-proof.
+The Marketing Expert suggested that the remote control should be baby-proof.
+The Marketing Expert said the remote control has to be very robust.
+The User Interface Designer said the remote control should be unbreakable.
+The Industrial Designer suggested a child lock or something.",385.28,385.723,llm,,inf
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,qmsum_6,textarea,item,The Industrial Designer proposed having some child lock or something similar.,correct,The Industrial Designer proposed having some child lock or something similar.,"The Project Manager suggested making the remote control child-proof.
+The Marketing Expert suggested that the remote control should be baby-proof.
+The Marketing Expert said the remote control has to be very robust.
+The User Interface Designer said the remote control should be unbreakable.
+The Industrial Designer suggested a child lock or something.",387.91,388.353,llm,393.3812,5.02819999999997
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_2,textarea,item,The User Interface Designer said that the remote control should be unbreakable.,correct,The User Interface Designer said that the remote control should be unbreakable.,"The User Interface Designer said that colourful is not practical.
+The User Interface Designer said that if the remote control is colourful, you will never find it.
+The User Interface Designer said that the remote control should be unbreakable.
+The User Interface Designer said that the remote control should not be too large.
+The User Interface Designer said that no screens are too complex.
+The User Interface Designer said that no screens on remote controls.
+The User Interface Designer said that the remote control should be palm-sized.
+The User Interface Designer said that the remote control should be adaptable.
+The User Interface Designer asked how many actions they need to implement in it.
+The User Interface Designer said that if it is less than three, then they can make it like a three mental states.
+The User Interface Designer said that they can just make it controlled by a brain.
+The User Interface Designer asked what you usually do for standard actions.
+The User Interface Designer said that you change channels and adjust volume for standard actions.",383.9,384.2,llm,386.1208,1.9207999999999856
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_2,textarea,item,The User Interface Designer objected that a colourful remote control is not practical.,correct,The User Interface Designer objected that a colourful remote control is not practical.,"The User Interface Designer said that colourful is not practical.
+The User Interface Designer said that if the remote control is colourful, you will never find it.
+The User Interface Designer said that the remote control should be unbreakable.
+The User Interface Designer said that the remote control should not be too large.
+The User Interface Designer said that no screens are too complex.
+The User Interface Designer said that no screens on remote controls.
+The User Interface Designer said that the remote control should be palm-sized.
+The User Interface Designer said that the remote control should be adaptable.
+The User Interface Designer asked how many actions they need to implement in it.
+The User Interface Designer said that if it is less than three, then they can make it like a three mental states.
+The User Interface Designer said that they can just make it controlled by a brain.
+The User Interface Designer asked what you usually do for standard actions.
+The User Interface Designer said that you change channels and adjust volume for standard actions.",400.11,401.609,llm,419.675,18.06600000000003
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_2,textarea,extra,The User Interface Designer said that the remote control should not be too large.,invented,,The User Interface Designer said that the remote control should not be too large.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_2,textarea,extra,The User Interface Designer said that no screens are too complex.,invented,,The User Interface Designer said that no screens are too complex.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_2,textarea,extra,The User Interface Designer said that no screens on remote controls.,invented,,The User Interface Designer said that no screens on remote controls.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_2,textarea,extra,The User Interface Designer said that the remote control should be palm-sized.,invented,,The User Interface Designer said that the remote control should be palm-sized.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_2,textarea,extra,The User Interface Designer said that the remote control should be adaptable.,invented,,The User Interface Designer said that the remote control should be adaptable.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_2,textarea,extra,The User Interface Designer asked how many actions they need to implement in it.,invented,,The User Interface Designer asked how many actions they need to implement in it.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_2,textarea,extra,"The User Interface Designer said that if it is less than three, then they can make it like a three mental states.",invented,,"The User Interface Designer said that if it is less than three, then they can make it like a three mental states.",,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_2,textarea,extra,The User Interface Designer said that they can just make it controlled by a brain.,invented,,The User Interface Designer said that they can just make it controlled by a brain.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_2,textarea,extra,The User Interface Designer asked what you usually do for standard actions.,invented,,The User Interface Designer asked what you usually do for standard actions.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_2,textarea,extra,The User Interface Designer said that you change channels and adjust volume for standard actions.,invented,,The User Interface Designer said that you change channels and adjust volume for standard actions.,,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_5,textarea,value,,invented,,"The Project Manager suggested some kind of idea with a cellular phone with a screen that will tell you what.
+The User Interface Designer said no screens, it is too complex.
+The Industrial Designer said screens are too expensive.
+The Marketing Expert said that screens are too expensive for twelve Euro.
+The User Interface Designer said that screens are not too expensive.
+The User Interface Designer said no screens on remote controls.
+The Marketing Expert thought it could be only a screen which would change depending on the use or even the user.
+The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert asked if it makes sense to have a full touch screen remote control.",,,,,
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_7,textarea,item,The Industrial Designer proposed having some child lock or something similar.,correct,The Industrial Designer proposed having some child lock or something similar.,The Industrial Designer suggested a child lock or something.,387.91,388.353,llm,390.4234,2.0704000000000065
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_8,textarea,item,The Project Manager asked whether the remote controls should maybe be waterproof.,correct,The Project Manager asked whether the remote controls should maybe be waterproof.,"The Project Manager asked if the remote control should be waterproof.
+The Marketing Expert suggested that the remote control should be baby-proof.",365.83,367.336,llm,383.5614,16.22539999999998
+20261117-183600-speechineer-openrouter-gemini-25-flash-extraction-ami,ami,IS1006a,mised_9,textarea,value,,invented,,"The Marketing Expert said that she prefers to have the off button at the top right.
+The Marketing Expert said that she would have her own design of the remote control.
+The Marketing Expert said that the remote control is in fact just a full touch screen remote control.
+The Marketing Expert asked if it makes sense to have a full touch screen remote control.
+The Marketing Expert said that it becomes more complex to record your sequence of actions.
+The Marketing Expert said that you could look at what the other people have used there or remote controls.",,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,opening,correct,True,True,70.81,71.11,span,35.4452,0.0
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,closing,correct,True,True,785.58,786.466,span,822.6008,36.13480000000004
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,agenda/equipment issues,missing,True,False,820.57,820.87,span,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,chitchat,correctly_empty,,False,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,project specs and roles of participants,correct,True,True,108.89,109.19,span,35.4452,0.0
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,new requirements,invented,,True,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,user target group,correctly_empty,,False,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,interface specialist presentation,invented,,True,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,marketing expert presentation,correctly_empty,,False,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,industrial designer presentation,correctly_empty,,False,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,presentation of prototype(s),correctly_empty,,False,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,discussion,correct,True,True,738.92,740.485,span,105.1425,0.0
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,evaluation of prototype(s),correctly_empty,,False,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,evaluation of project process,correctly_empty,,False,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,costing,invented,,True,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,drawing exercise,missing,True,False,286.98,287.28,span,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,project budget,missing,True,False,323.69,323.99,span,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,existing products,correctly_empty,,False,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,trendwatching,invented,,True,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,user requirements,invented,,True,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,"components, materials and energy sources",correct,True,True,555.6,556.863,span,377.1556,0.0
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,look and usability,correct,True,True,532.64,533.658,span,363.51,0.0
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,topics,multiselect,option,how to find when misplaced,invented,,True,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,actions,textarea,item,The Project Manager asked the team to work on these ideas before the next meeting.,correct,The Project Manager asked the team to work on these ideas before the next meeting.,"The Project Manager said that they are going to meet again in thirty minutes.
+The Project Manager asked them to work on these ideas and try to make a.
+The Project Manager asked them to decide what ideas are important and what ideas they don't want.
+The Project Manager asked them to work on the technical parts.
+The Project Manager said to see them in thirty minutes.",754.29,755.012,llm,763.4453,8.433300000000031
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,actions,textarea,item,The Project Manager asked the team to decide which ideas are important and which ones the team does not want.,correct,The Project Manager asked the team to decide which ideas are important and which ones the team does not want.,"The Project Manager said that they are going to meet again in thirty minutes.
+The Project Manager asked them to work on these ideas and try to make a.
+The Project Manager asked them to decide what ideas are important and what ideas they don't want.
+The Project Manager asked them to work on the technical parts.
+The Project Manager said to see them in thirty minutes.",765.91,766.21,llm,777.1879,10.977899999999977
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,actions,textarea,item,"The Project Manager asked the team to consider more of the technical parts, about what the team wants to do.",correct,"The Project Manager asked the team to consider more of the technical parts, about what the team wants to do.","The Project Manager said that they are going to meet again in thirty minutes.
+The Project Manager asked them to work on these ideas and try to make a.
+The Project Manager asked them to decide what ideas are important and what ideas they don't want.
+The Project Manager asked them to work on the technical parts.
+The Project Manager said to see them in thirty minutes.",771.58,772.147,llm,777.1879,5.040899999999965
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,actions,textarea,item,The Marketing Expert said that the Marketing Expert will think about the user requirement specifications.,missing,The Marketing Expert said that the Marketing Expert will think about the user requirement specifications.,"The Project Manager said that they are going to meet again in thirty minutes.
+The Project Manager asked them to work on these ideas and try to make a.
+The Project Manager asked them to decide what ideas are important and what ideas they don't want.
+The Project Manager asked them to work on the technical parts.
+The Project Manager said to see them in thirty minutes.",803.4,803.7,llm,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,actions,textarea,extra,The Project Manager asked them to work on these ideas and try to make a.,invented,,The Project Manager asked them to work on these ideas and try to make a.,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert said that the Marketing Expert's daughter likes remote controls.,correct,The Marketing Expert said that the Marketing Expert's daughter likes remote controls.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes to break remote controls.
+The Marketing Expert said that her daughter likes buttons which make a click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer said that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested that the remote control should not have too many buttons.
+The Industrial Designer said that the remote control should not be bigger than this.
+The User Interface Designer said that the remote control should not be too large.
+The Industrial Designer suggested that the remote control could change the colors of the frame.
+The User Interface Designer said that screens are too complex.
+The Industrial Designer said that screens are too expensive.
+The User Interface Designer said that there should be no screens on remote controls.
+The Marketing Expert suggested that the remote control could have a screen that changes depending on the use or user.",340.77,341.808,llm,345.1201,3.3120999999999867
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,item,"The Marketing Expert said, in answer to the User Interface Designer's question whether the daughter likes them to eat, that the daughter likes remote controls mainly to eat and to break.",missing,"The Marketing Expert said, in answer to the User Interface Designer's question whether the daughter likes them to eat, that the daughter likes remote controls mainly to eat and to break.","The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes to break remote controls.
+The Marketing Expert said that her daughter likes buttons which make a click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer said that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested that the remote control should not have too many buttons.
+The Industrial Designer said that the remote control should not be bigger than this.
+The User Interface Designer said that the remote control should not be too large.
+The Industrial Designer suggested that the remote control could change the colors of the frame.
+The User Interface Designer said that screens are too complex.
+The Industrial Designer said that screens are too expensive.
+The User Interface Designer said that there should be no screens on remote controls.
+The Marketing Expert suggested that the remote control could have a screen that changes depending on the use or user.",347.33,348.12,llm,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,item,The Project Manager proposed children-proof remote controls as a great application.,missing,The Project Manager proposed children-proof remote controls as a great application.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes to break remote controls.
+The Marketing Expert said that her daughter likes buttons which make a click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer said that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested that the remote control should not have too many buttons.
+The Industrial Designer said that the remote control should not be bigger than this.
+The User Interface Designer said that the remote control should not be too large.
+The Industrial Designer suggested that the remote control could change the colors of the frame.
+The User Interface Designer said that screens are too complex.
+The Industrial Designer said that screens are too expensive.
+The User Interface Designer said that there should be no screens on remote controls.
+The Marketing Expert suggested that the remote control could have a screen that changes depending on the use or user.",351.15,352.165,llm,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert said that the Marketing Expert's daughter likes buttons which make a click.,correct,The Marketing Expert said that the Marketing Expert's daughter likes buttons which make a click.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes to break remote controls.
+The Marketing Expert said that her daughter likes buttons which make a click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer said that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested that the remote control should not have too many buttons.
+The Industrial Designer said that the remote control should not be bigger than this.
+The User Interface Designer said that the remote control should not be too large.
+The Industrial Designer suggested that the remote control could change the colors of the frame.
+The User Interface Designer said that screens are too complex.
+The Industrial Designer said that screens are too expensive.
+The User Interface Designer said that there should be no screens on remote controls.
+The Marketing Expert suggested that the remote control could have a screen that changes depending on the use or user.",359.2,359.747,llm,345.1201,0.0
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert said that the remote control has to click.,missing,The Marketing Expert said that the remote control has to click.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes to break remote controls.
+The Marketing Expert said that her daughter likes buttons which make a click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer said that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested that the remote control should not have too many buttons.
+The Industrial Designer said that the remote control should not be bigger than this.
+The User Interface Designer said that the remote control should not be too large.
+The Industrial Designer suggested that the remote control could change the colors of the frame.
+The User Interface Designer said that screens are too complex.
+The Industrial Designer said that screens are too expensive.
+The User Interface Designer said that there should be no screens on remote controls.
+The Marketing Expert suggested that the remote control could have a screen that changes depending on the use or user.",361.48,361.78,llm,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,item,The Project Manager asked whether the remote controls should maybe be waterproof.,missing,The Project Manager asked whether the remote controls should maybe be waterproof.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes to break remote controls.
+The Marketing Expert said that her daughter likes buttons which make a click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer said that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested that the remote control should not have too many buttons.
+The Industrial Designer said that the remote control should not be bigger than this.
+The User Interface Designer said that the remote control should not be too large.
+The Industrial Designer suggested that the remote control could change the colors of the frame.
+The User Interface Designer said that screens are too complex.
+The Industrial Designer said that screens are too expensive.
+The User Interface Designer said that there should be no screens on remote controls.
+The Marketing Expert suggested that the remote control could have a screen that changes depending on the use or user.",365.83,367.336,llm,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert said that the remote control has to be baby proof.,correct,The Marketing Expert said that the remote control has to be baby proof.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes to break remote controls.
+The Marketing Expert said that her daughter likes buttons which make a click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer said that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested that the remote control should not have too many buttons.
+The Industrial Designer said that the remote control should not be bigger than this.
+The User Interface Designer said that the remote control should not be too large.
+The Industrial Designer suggested that the remote control could change the colors of the frame.
+The User Interface Designer said that screens are too complex.
+The Industrial Designer said that screens are too expensive.
+The User Interface Designer said that there should be no screens on remote controls.
+The Marketing Expert suggested that the remote control could have a screen that changes depending on the use or user.",368.04,368.829,llm,560.6319,191.80289999999997
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert said that the remote control mainly has to be very robust.,correct,The Marketing Expert said that the remote control mainly has to be very robust.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes to break remote controls.
+The Marketing Expert said that her daughter likes buttons which make a click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer said that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested that the remote control should not have too many buttons.
+The Industrial Designer said that the remote control should not be bigger than this.
+The User Interface Designer said that the remote control should not be too large.
+The Industrial Designer suggested that the remote control could change the colors of the frame.
+The User Interface Designer said that screens are too complex.
+The Industrial Designer said that screens are too expensive.
+The User Interface Designer said that there should be no screens on remote controls.
+The Marketing Expert suggested that the remote control could have a screen that changes depending on the use or user.",371.83,372.914,llm,377.1556,4.241600000000005
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,item,The User Interface Designer said that the remote control should be unbreakable.,missing,The User Interface Designer said that the remote control should be unbreakable.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes to break remote controls.
+The Marketing Expert said that her daughter likes buttons which make a click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer said that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested that the remote control should not have too many buttons.
+The Industrial Designer said that the remote control should not be bigger than this.
+The User Interface Designer said that the remote control should not be too large.
+The Industrial Designer suggested that the remote control could change the colors of the frame.
+The User Interface Designer said that screens are too complex.
+The Industrial Designer said that screens are too expensive.
+The User Interface Designer said that there should be no screens on remote controls.
+The Marketing Expert suggested that the remote control could have a screen that changes depending on the use or user.",383.9,384.2,llm,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert agreed that the remote control should be unbreakable.,missing,The Marketing Expert agreed that the remote control should be unbreakable.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes to break remote controls.
+The Marketing Expert said that her daughter likes buttons which make a click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer said that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested that the remote control should not have too many buttons.
+The Industrial Designer said that the remote control should not be bigger than this.
+The User Interface Designer said that the remote control should not be too large.
+The Industrial Designer suggested that the remote control could change the colors of the frame.
+The User Interface Designer said that screens are too complex.
+The Industrial Designer said that screens are too expensive.
+The User Interface Designer said that there should be no screens on remote controls.
+The Marketing Expert suggested that the remote control could have a screen that changes depending on the use or user.",385.28,385.723,llm,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,item,The Industrial Designer proposed having some child lock or something similar.,missing,The Industrial Designer proposed having some child lock or something similar.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes to break remote controls.
+The Marketing Expert said that her daughter likes buttons which make a click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer said that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested that the remote control should not have too many buttons.
+The Industrial Designer said that the remote control should not be bigger than this.
+The User Interface Designer said that the remote control should not be too large.
+The Industrial Designer suggested that the remote control could change the colors of the frame.
+The User Interface Designer said that screens are too complex.
+The Industrial Designer said that screens are too expensive.
+The User Interface Designer said that there should be no screens on remote controls.
+The Marketing Expert suggested that the remote control could have a screen that changes depending on the use or user.",387.91,388.353,llm,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that remote controls have to be colourful.,invented,,The Marketing Expert said that remote controls have to be colourful.,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer said that the remote control should be really small.,invented,,The Industrial Designer said that the remote control should be really small.,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert asked if the remote control should be small.,invented,,The Marketing Expert asked if the remote control should be small.,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert suggested that the remote control should not have too many buttons.,invented,,The Marketing Expert suggested that the remote control should not have too many buttons.,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer said that the remote control should not be bigger than this.,invented,,The Industrial Designer said that the remote control should not be bigger than this.,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer said that the remote control should not be too large.,invented,,The User Interface Designer said that the remote control should not be too large.,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer suggested that the remote control could change the colors of the frame.,invented,,The Industrial Designer suggested that the remote control could change the colors of the frame.,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer said that screens are too complex.,invented,,The User Interface Designer said that screens are too complex.,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer said that screens are too expensive.,invented,,The Industrial Designer said that screens are too expensive.,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer said that there should be no screens on remote controls.,invented,,The User Interface Designer said that there should be no screens on remote controls.,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert suggested that the remote control could have a screen that changes depending on the use or user.,invented,,The Marketing Expert suggested that the remote control could have a screen that changes depending on the use or user.,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_6,textarea,item,The Project Manager proposed children-proof remote controls as a great application.,missing,The Project Manager proposed children-proof remote controls as a great application.,"The Project Manager said that remote controls should be child-proof.
+The Marketing Expert said that remote controls have to be baby proof.",351.15,352.165,llm,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_6,textarea,item,The Project Manager asked whether the remote controls should maybe be waterproof.,missing,The Project Manager asked whether the remote controls should maybe be waterproof.,"The Project Manager said that remote controls should be child-proof.
+The Marketing Expert said that remote controls have to be baby proof.",365.83,367.336,llm,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_6,textarea,item,The Marketing Expert said that the remote control has to be baby proof.,correct,The Marketing Expert said that the remote control has to be baby proof.,"The Project Manager said that remote controls should be child-proof.
+The Marketing Expert said that remote controls have to be baby proof.",368.04,368.829,llm,377.1556,8.326599999999985
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_6,textarea,item,The Marketing Expert said that the remote control mainly has to be very robust.,missing,The Marketing Expert said that the remote control mainly has to be very robust.,"The Project Manager said that remote controls should be child-proof.
+The Marketing Expert said that remote controls have to be baby proof.",371.83,372.914,llm,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_6,textarea,item,The User Interface Designer said that the remote control should be unbreakable.,missing,The User Interface Designer said that the remote control should be unbreakable.,"The Project Manager said that remote controls should be child-proof.
+The Marketing Expert said that remote controls have to be baby proof.",383.9,384.2,llm,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_6,textarea,item,The Marketing Expert agreed that the remote control should be unbreakable.,missing,The Marketing Expert agreed that the remote control should be unbreakable.,"The Project Manager said that remote controls should be child-proof.
+The Marketing Expert said that remote controls have to be baby proof.",385.28,385.723,llm,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,qmsum_6,textarea,item,The Industrial Designer proposed having some child lock or something similar.,missing,The Industrial Designer proposed having some child lock or something similar.,"The Project Manager said that remote controls should be child-proof.
+The Marketing Expert said that remote controls have to be baby proof.",387.91,388.353,llm,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,mised_2,textarea,item,The User Interface Designer said that the remote control should be unbreakable.,missing,The User Interface Designer said that the remote control should be unbreakable.,"The User Interface Designer said that colourful is not practical.
+The Industrial Designer suggested that the remote control could change colors.
+The Industrial Designer suggested that the remote control could change the colors of the frame.",383.9,384.2,llm,,inf
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,mised_2,textarea,item,The User Interface Designer objected that a colourful remote control is not practical.,correct,The User Interface Designer objected that a colourful remote control is not practical.,"The User Interface Designer said that colourful is not practical.
+The Industrial Designer suggested that the remote control could change colors.
+The Industrial Designer suggested that the remote control could change the colors of the frame.",400.11,401.609,llm,433.1862,31.577200000000005
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,mised_2,textarea,extra,The Industrial Designer suggested that the remote control could change colors.,invented,,The Industrial Designer suggested that the remote control could change colors.,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,mised_2,textarea,extra,The Industrial Designer suggested that the remote control could change the colors of the frame.,invented,,The Industrial Designer suggested that the remote control could change the colors of the frame.,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,mised_5,textarea,value,,correctly_empty,,,,,,,
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,mised_7,textarea,item,The Industrial Designer proposed having some child lock or something similar.,correct,The Industrial Designer proposed having some child lock or something similar.,"The Industrial Designer suggested a child lock.
+The Industrial Designer suggested a child lock or something.",387.91,388.353,llm,392.0235,3.670500000000004
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,mised_8,textarea,item,The Project Manager asked whether the remote controls should maybe be waterproof.,correct,The Project Manager asked whether the remote controls should maybe be waterproof.,"The Marketing Expert suggested that remote controls have to be waterproof.
+The Project Manager asked if remote controls have to be waterproof.",365.83,367.336,llm,392.0235,24.6875
+20261121-170950-gated-flash-v5-ami,ami,IS1006a,mised_9,textarea,value,,correctly_empty,,,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,opening,correct,True,True,70.81,71.11,span,35.9155,0.0
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,closing,correct,True,True,785.58,786.466,span,822.2827,35.81669999999997
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,agenda/equipment issues,correct,True,True,820.57,820.87,span,55.1711,0.0
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,chitchat,correctly_empty,,False,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,project specs and roles of participants,correct,True,True,108.89,109.19,span,69.9835,0.0
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,new requirements,invented,,True,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,user target group,invented,,True,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,interface specialist presentation,correctly_empty,,False,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,marketing expert presentation,correctly_empty,,False,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,industrial designer presentation,correctly_empty,,False,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,presentation of prototype(s),correctly_empty,,False,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,discussion,correct,True,True,738.92,740.485,span,104.8498,0.0
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,evaluation of prototype(s),correctly_empty,,False,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,evaluation of project process,correctly_empty,,False,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,costing,invented,,True,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,drawing exercise,correct,True,True,286.98,287.28,span,140.4019,0.0
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,project budget,missing,True,False,323.69,323.99,span,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,existing products,correctly_empty,,False,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,trendwatching,invented,,True,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,user requirements,invented,,True,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,"components, materials and energy sources",correct,True,True,555.6,556.863,span,517.3126,0.0
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,look and usability,correct,True,True,532.64,533.658,span,405.6364,0.0
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,topics,multiselect,option,how to find when misplaced,invented,,True,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,actions,textarea,item,The Project Manager asked the team to work on these ideas before the next meeting.,correct,The Project Manager asked the team to work on these ideas before the next meeting.,"The Project Manager said that they are going to meet again in thirty minutes.
+The Project Manager said that they have to work on these ideas.
+The Project Manager said that they have to decide what ideas are important and what ideas they don't want.
+The Project Manager said that they have to work on the technical parts.",754.29,755.012,llm,762.8318,7.8198000000001
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,actions,textarea,item,The Project Manager asked the team to decide which ideas are important and which ones the team does not want.,correct,The Project Manager asked the team to decide which ideas are important and which ones the team does not want.,"The Project Manager said that they are going to meet again in thirty minutes.
+The Project Manager said that they have to work on these ideas.
+The Project Manager said that they have to decide what ideas are important and what ideas they don't want.
+The Project Manager said that they have to work on the technical parts.",765.91,766.21,llm,777.2478,11.037799999999947
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,actions,textarea,item,"The Project Manager asked the team to consider more of the technical parts, about what the team wants to do.",correct,"The Project Manager asked the team to consider more of the technical parts, about what the team wants to do.","The Project Manager said that they are going to meet again in thirty minutes.
+The Project Manager said that they have to work on these ideas.
+The Project Manager said that they have to decide what ideas are important and what ideas they don't want.
+The Project Manager said that they have to work on the technical parts.",771.58,772.147,llm,777.2478,5.100799999999936
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,actions,textarea,item,The Marketing Expert said that the Marketing Expert will think about the user requirement specifications.,missing,The Marketing Expert said that the Marketing Expert will think about the user requirement specifications.,"The Project Manager said that they are going to meet again in thirty minutes.
+The Project Manager said that they have to work on these ideas.
+The Project Manager said that they have to decide what ideas are important and what ideas they don't want.
+The Project Manager said that they have to work on the technical parts.",803.4,803.7,llm,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert said that the Marketing Expert's daughter likes remote controls.,correct,The Marketing Expert said that the Marketing Expert's daughter likes remote controls.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes remote controls to break.
+The Marketing Expert said that her daughter likes buttons which make click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer suggested that the remote control could change colors.
+The Industrial Designer suggested that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested not too many buttons.
+The Industrial Designer said that the remote control should not be bigger than their hand.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold properly in hand.
+The User Interface Designer said that the remote control should be palm sized.
+The Marketing Expert asked what would be different from other remote controls.
+The Marketing Expert said that there is a problem in the design of remote controls where people click the off button when they want to use it.
+The User Interface Designer said that screens are too complex for remote controls.
+The Industrial Designer said that screens are too expensive for remote controls.
+The Marketing Expert suggested a screen which would change depending on the use or the user.
+The Marketing Expert suggested a full touch screen remote control.
+The Industrial Designer said that people are right-handed or left-handed.
+The Project Manager suggested that the remote control should be adaptable.
+The User Interface Designer said that for standard actions, people usually change channels and adjust volume.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she only uses three or four channels.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that a previous button is good.
+The Marketing Expert suggested a history function so you could undo previous actions.",340.77,341.808,llm,345.0154,3.207400000000007
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,item,"The Marketing Expert said, in answer to the User Interface Designer's question whether the daughter likes them to eat, that the daughter likes remote controls mainly to eat and to break.",missing,"The Marketing Expert said, in answer to the User Interface Designer's question whether the daughter likes them to eat, that the daughter likes remote controls mainly to eat and to break.","The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes remote controls to break.
+The Marketing Expert said that her daughter likes buttons which make click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer suggested that the remote control could change colors.
+The Industrial Designer suggested that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested not too many buttons.
+The Industrial Designer said that the remote control should not be bigger than their hand.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold properly in hand.
+The User Interface Designer said that the remote control should be palm sized.
+The Marketing Expert asked what would be different from other remote controls.
+The Marketing Expert said that there is a problem in the design of remote controls where people click the off button when they want to use it.
+The User Interface Designer said that screens are too complex for remote controls.
+The Industrial Designer said that screens are too expensive for remote controls.
+The Marketing Expert suggested a screen which would change depending on the use or the user.
+The Marketing Expert suggested a full touch screen remote control.
+The Industrial Designer said that people are right-handed or left-handed.
+The Project Manager suggested that the remote control should be adaptable.
+The User Interface Designer said that for standard actions, people usually change channels and adjust volume.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she only uses three or four channels.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that a previous button is good.
+The Marketing Expert suggested a history function so you could undo previous actions.",347.33,348.12,llm,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,item,The Project Manager proposed children-proof remote controls as a great application.,missing,The Project Manager proposed children-proof remote controls as a great application.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes remote controls to break.
+The Marketing Expert said that her daughter likes buttons which make click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer suggested that the remote control could change colors.
+The Industrial Designer suggested that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested not too many buttons.
+The Industrial Designer said that the remote control should not be bigger than their hand.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold properly in hand.
+The User Interface Designer said that the remote control should be palm sized.
+The Marketing Expert asked what would be different from other remote controls.
+The Marketing Expert said that there is a problem in the design of remote controls where people click the off button when they want to use it.
+The User Interface Designer said that screens are too complex for remote controls.
+The Industrial Designer said that screens are too expensive for remote controls.
+The Marketing Expert suggested a screen which would change depending on the use or the user.
+The Marketing Expert suggested a full touch screen remote control.
+The Industrial Designer said that people are right-handed or left-handed.
+The Project Manager suggested that the remote control should be adaptable.
+The User Interface Designer said that for standard actions, people usually change channels and adjust volume.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she only uses three or four channels.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that a previous button is good.
+The Marketing Expert suggested a history function so you could undo previous actions.",351.15,352.165,llm,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert said that the Marketing Expert's daughter likes buttons which make a click.,correct,The Marketing Expert said that the Marketing Expert's daughter likes buttons which make a click.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes remote controls to break.
+The Marketing Expert said that her daughter likes buttons which make click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer suggested that the remote control could change colors.
+The Industrial Designer suggested that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested not too many buttons.
+The Industrial Designer said that the remote control should not be bigger than their hand.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold properly in hand.
+The User Interface Designer said that the remote control should be palm sized.
+The Marketing Expert asked what would be different from other remote controls.
+The Marketing Expert said that there is a problem in the design of remote controls where people click the off button when they want to use it.
+The User Interface Designer said that screens are too complex for remote controls.
+The Industrial Designer said that screens are too expensive for remote controls.
+The Marketing Expert suggested a screen which would change depending on the use or the user.
+The Marketing Expert suggested a full touch screen remote control.
+The Industrial Designer said that people are right-handed or left-handed.
+The Project Manager suggested that the remote control should be adaptable.
+The User Interface Designer said that for standard actions, people usually change channels and adjust volume.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she only uses three or four channels.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that a previous button is good.
+The Marketing Expert suggested a history function so you could undo previous actions.",359.2,359.747,llm,345.0154,0.0
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert said that the remote control has to click.,missing,The Marketing Expert said that the remote control has to click.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes remote controls to break.
+The Marketing Expert said that her daughter likes buttons which make click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer suggested that the remote control could change colors.
+The Industrial Designer suggested that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested not too many buttons.
+The Industrial Designer said that the remote control should not be bigger than their hand.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold properly in hand.
+The User Interface Designer said that the remote control should be palm sized.
+The Marketing Expert asked what would be different from other remote controls.
+The Marketing Expert said that there is a problem in the design of remote controls where people click the off button when they want to use it.
+The User Interface Designer said that screens are too complex for remote controls.
+The Industrial Designer said that screens are too expensive for remote controls.
+The Marketing Expert suggested a screen which would change depending on the use or the user.
+The Marketing Expert suggested a full touch screen remote control.
+The Industrial Designer said that people are right-handed or left-handed.
+The Project Manager suggested that the remote control should be adaptable.
+The User Interface Designer said that for standard actions, people usually change channels and adjust volume.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she only uses three or four channels.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that a previous button is good.
+The Marketing Expert suggested a history function so you could undo previous actions.",361.48,361.78,llm,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,item,The Project Manager asked whether the remote controls should maybe be waterproof.,missing,The Project Manager asked whether the remote controls should maybe be waterproof.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes remote controls to break.
+The Marketing Expert said that her daughter likes buttons which make click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer suggested that the remote control could change colors.
+The Industrial Designer suggested that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested not too many buttons.
+The Industrial Designer said that the remote control should not be bigger than their hand.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold properly in hand.
+The User Interface Designer said that the remote control should be palm sized.
+The Marketing Expert asked what would be different from other remote controls.
+The Marketing Expert said that there is a problem in the design of remote controls where people click the off button when they want to use it.
+The User Interface Designer said that screens are too complex for remote controls.
+The Industrial Designer said that screens are too expensive for remote controls.
+The Marketing Expert suggested a screen which would change depending on the use or the user.
+The Marketing Expert suggested a full touch screen remote control.
+The Industrial Designer said that people are right-handed or left-handed.
+The Project Manager suggested that the remote control should be adaptable.
+The User Interface Designer said that for standard actions, people usually change channels and adjust volume.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she only uses three or four channels.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that a previous button is good.
+The Marketing Expert suggested a history function so you could undo previous actions.",365.83,367.336,llm,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert said that the remote control has to be baby proof.,correct,The Marketing Expert said that the remote control has to be baby proof.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes remote controls to break.
+The Marketing Expert said that her daughter likes buttons which make click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer suggested that the remote control could change colors.
+The Industrial Designer suggested that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested not too many buttons.
+The Industrial Designer said that the remote control should not be bigger than their hand.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold properly in hand.
+The User Interface Designer said that the remote control should be palm sized.
+The Marketing Expert asked what would be different from other remote controls.
+The Marketing Expert said that there is a problem in the design of remote controls where people click the off button when they want to use it.
+The User Interface Designer said that screens are too complex for remote controls.
+The Industrial Designer said that screens are too expensive for remote controls.
+The Marketing Expert suggested a screen which would change depending on the use or the user.
+The Marketing Expert suggested a full touch screen remote control.
+The Industrial Designer said that people are right-handed or left-handed.
+The Project Manager suggested that the remote control should be adaptable.
+The User Interface Designer said that for standard actions, people usually change channels and adjust volume.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she only uses three or four channels.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that a previous button is good.
+The Marketing Expert suggested a history function so you could undo previous actions.",368.04,368.829,llm,730.5813,361.75230000000005
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert said that the remote control mainly has to be very robust.,correct,The Marketing Expert said that the remote control mainly has to be very robust.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes remote controls to break.
+The Marketing Expert said that her daughter likes buttons which make click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer suggested that the remote control could change colors.
+The Industrial Designer suggested that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested not too many buttons.
+The Industrial Designer said that the remote control should not be bigger than their hand.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold properly in hand.
+The User Interface Designer said that the remote control should be palm sized.
+The Marketing Expert asked what would be different from other remote controls.
+The Marketing Expert said that there is a problem in the design of remote controls where people click the off button when they want to use it.
+The User Interface Designer said that screens are too complex for remote controls.
+The Industrial Designer said that screens are too expensive for remote controls.
+The Marketing Expert suggested a screen which would change depending on the use or the user.
+The Marketing Expert suggested a full touch screen remote control.
+The Industrial Designer said that people are right-handed or left-handed.
+The Project Manager suggested that the remote control should be adaptable.
+The User Interface Designer said that for standard actions, people usually change channels and adjust volume.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she only uses three or four channels.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that a previous button is good.
+The Marketing Expert suggested a history function so you could undo previous actions.",371.83,372.914,llm,377.4796,4.565600000000018
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,item,The User Interface Designer said that the remote control should be unbreakable.,missing,The User Interface Designer said that the remote control should be unbreakable.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes remote controls to break.
+The Marketing Expert said that her daughter likes buttons which make click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer suggested that the remote control could change colors.
+The Industrial Designer suggested that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested not too many buttons.
+The Industrial Designer said that the remote control should not be bigger than their hand.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold properly in hand.
+The User Interface Designer said that the remote control should be palm sized.
+The Marketing Expert asked what would be different from other remote controls.
+The Marketing Expert said that there is a problem in the design of remote controls where people click the off button when they want to use it.
+The User Interface Designer said that screens are too complex for remote controls.
+The Industrial Designer said that screens are too expensive for remote controls.
+The Marketing Expert suggested a screen which would change depending on the use or the user.
+The Marketing Expert suggested a full touch screen remote control.
+The Industrial Designer said that people are right-handed or left-handed.
+The Project Manager suggested that the remote control should be adaptable.
+The User Interface Designer said that for standard actions, people usually change channels and adjust volume.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she only uses three or four channels.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that a previous button is good.
+The Marketing Expert suggested a history function so you could undo previous actions.",383.9,384.2,llm,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,item,The Marketing Expert agreed that the remote control should be unbreakable.,missing,The Marketing Expert agreed that the remote control should be unbreakable.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes remote controls to break.
+The Marketing Expert said that her daughter likes buttons which make click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer suggested that the remote control could change colors.
+The Industrial Designer suggested that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested not too many buttons.
+The Industrial Designer said that the remote control should not be bigger than their hand.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold properly in hand.
+The User Interface Designer said that the remote control should be palm sized.
+The Marketing Expert asked what would be different from other remote controls.
+The Marketing Expert said that there is a problem in the design of remote controls where people click the off button when they want to use it.
+The User Interface Designer said that screens are too complex for remote controls.
+The Industrial Designer said that screens are too expensive for remote controls.
+The Marketing Expert suggested a screen which would change depending on the use or the user.
+The Marketing Expert suggested a full touch screen remote control.
+The Industrial Designer said that people are right-handed or left-handed.
+The Project Manager suggested that the remote control should be adaptable.
+The User Interface Designer said that for standard actions, people usually change channels and adjust volume.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she only uses three or four channels.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that a previous button is good.
+The Marketing Expert suggested a history function so you could undo previous actions.",385.28,385.723,llm,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,item,The Industrial Designer proposed having some child lock or something similar.,missing,The Industrial Designer proposed having some child lock or something similar.,"The Marketing Expert said that her daughter likes remote controls to eat.
+The Marketing Expert said that her daughter likes remote controls to break.
+The Marketing Expert said that her daughter likes buttons which make click.
+The Marketing Expert said that remote controls have to be very robust.
+The Marketing Expert said that remote controls have to be nice looking.
+The Marketing Expert said that remote controls have to be colourful.
+The Industrial Designer suggested that the remote control could change colors.
+The Industrial Designer suggested that the remote control should be really small.
+The Marketing Expert asked if the remote control should be small.
+The Marketing Expert suggested not too many buttons.
+The Industrial Designer said that the remote control should not be bigger than their hand.
+The User Interface Designer said that the remote control should not be too large.
+The Project Manager said that the remote control should not be too small.
+The Industrial Designer said that the remote control should hold properly in hand.
+The User Interface Designer said that the remote control should be palm sized.
+The Marketing Expert asked what would be different from other remote controls.
+The Marketing Expert said that there is a problem in the design of remote controls where people click the off button when they want to use it.
+The User Interface Designer said that screens are too complex for remote controls.
+The Industrial Designer said that screens are too expensive for remote controls.
+The Marketing Expert suggested a screen which would change depending on the use or the user.
+The Marketing Expert suggested a full touch screen remote control.
+The Industrial Designer said that people are right-handed or left-handed.
+The Project Manager suggested that the remote control should be adaptable.
+The User Interface Designer said that for standard actions, people usually change channels and adjust volume.
+The Marketing Expert said that she usually just changes channels.
+The Marketing Expert said that she only uses three or four channels.
+The Marketing Expert said that a go back button is good.
+The Marketing Expert said that a previous button is good.
+The Marketing Expert suggested a history function so you could undo previous actions.",387.91,388.353,llm,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that remote controls have to be colourful.,invented,,The Marketing Expert said that remote controls have to be colourful.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer suggested that the remote control could change colors.,invented,,The Industrial Designer suggested that the remote control could change colors.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer suggested that the remote control should be really small.,invented,,The Industrial Designer suggested that the remote control should be really small.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert asked if the remote control should be small.,invented,,The Marketing Expert asked if the remote control should be small.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert suggested not too many buttons.,invented,,The Marketing Expert suggested not too many buttons.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer said that the remote control should not be bigger than their hand.,invented,,The Industrial Designer said that the remote control should not be bigger than their hand.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer said that the remote control should not be too large.,invented,,The User Interface Designer said that the remote control should not be too large.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Project Manager said that the remote control should not be too small.,invented,,The Project Manager said that the remote control should not be too small.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer said that the remote control should hold properly in hand.,invented,,The Industrial Designer said that the remote control should hold properly in hand.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer said that the remote control should be palm sized.,invented,,The User Interface Designer said that the remote control should be palm sized.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert asked what would be different from other remote controls.,invented,,The Marketing Expert asked what would be different from other remote controls.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that there is a problem in the design of remote controls where people click the off button when they want to use it.,invented,,The Marketing Expert said that there is a problem in the design of remote controls where people click the off button when they want to use it.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The User Interface Designer said that screens are too complex for remote controls.,invented,,The User Interface Designer said that screens are too complex for remote controls.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer said that screens are too expensive for remote controls.,invented,,The Industrial Designer said that screens are too expensive for remote controls.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert suggested a screen which would change depending on the use or the user.,invented,,The Marketing Expert suggested a screen which would change depending on the use or the user.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert suggested a full touch screen remote control.,invented,,The Marketing Expert suggested a full touch screen remote control.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Industrial Designer said that people are right-handed or left-handed.,invented,,The Industrial Designer said that people are right-handed or left-handed.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Project Manager suggested that the remote control should be adaptable.,invented,,The Project Manager suggested that the remote control should be adaptable.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,"The User Interface Designer said that for standard actions, people usually change channels and adjust volume.",invented,,"The User Interface Designer said that for standard actions, people usually change channels and adjust volume.",,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that she usually just changes channels.,invented,,The Marketing Expert said that she usually just changes channels.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that she only uses three or four channels.,invented,,The Marketing Expert said that she only uses three or four channels.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that a go back button is good.,invented,,The Marketing Expert said that a go back button is good.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert said that a previous button is good.,invented,,The Marketing Expert said that a previous button is good.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_5,textarea,extra,The Marketing Expert suggested a history function so you could undo previous actions.,invented,,The Marketing Expert suggested a history function so you could undo previous actions.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_6,textarea,item,The Project Manager proposed children-proof remote controls as a great application.,missing,The Project Manager proposed children-proof remote controls as a great application.,"The Project Manager said that remote controls should be children proof.
+The Marketing Expert said that remote controls have to be baby proof.
+The Marketing Expert said that remote controls have to be very robust.",351.15,352.165,llm,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_6,textarea,item,The Project Manager asked whether the remote controls should maybe be waterproof.,missing,The Project Manager asked whether the remote controls should maybe be waterproof.,"The Project Manager said that remote controls should be children proof.
+The Marketing Expert said that remote controls have to be baby proof.
+The Marketing Expert said that remote controls have to be very robust.",365.83,367.336,llm,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_6,textarea,item,The Marketing Expert said that the remote control has to be baby proof.,correct,The Marketing Expert said that the remote control has to be baby proof.,"The Project Manager said that remote controls should be children proof.
+The Marketing Expert said that remote controls have to be baby proof.
+The Marketing Expert said that remote controls have to be very robust.",368.04,368.829,llm,377.4796,8.650599999999997
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_6,textarea,item,The Marketing Expert said that the remote control mainly has to be very robust.,correct,The Marketing Expert said that the remote control mainly has to be very robust.,"The Project Manager said that remote controls should be children proof.
+The Marketing Expert said that remote controls have to be baby proof.
+The Marketing Expert said that remote controls have to be very robust.",371.83,372.914,llm,391.3264,18.41239999999999
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_6,textarea,item,The User Interface Designer said that the remote control should be unbreakable.,missing,The User Interface Designer said that the remote control should be unbreakable.,"The Project Manager said that remote controls should be children proof.
+The Marketing Expert said that remote controls have to be baby proof.
+The Marketing Expert said that remote controls have to be very robust.",383.9,384.2,llm,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_6,textarea,item,The Marketing Expert agreed that the remote control should be unbreakable.,missing,The Marketing Expert agreed that the remote control should be unbreakable.,"The Project Manager said that remote controls should be children proof.
+The Marketing Expert said that remote controls have to be baby proof.
+The Marketing Expert said that remote controls have to be very robust.",385.28,385.723,llm,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,qmsum_6,textarea,item,The Industrial Designer proposed having some child lock or something similar.,missing,The Industrial Designer proposed having some child lock or something similar.,"The Project Manager said that remote controls should be children proof.
+The Marketing Expert said that remote controls have to be baby proof.
+The Marketing Expert said that remote controls have to be very robust.",387.91,388.353,llm,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,mised_2,textarea,item,The User Interface Designer said that the remote control should be unbreakable.,missing,The User Interface Designer said that the remote control should be unbreakable.,"The User Interface Designer said that colourful remote controls are not practical.
+The Marketing Expert suggested changing the colors of the frame.
+The Industrial Designer suggested that the frame could change colors.",383.9,384.2,llm,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,mised_2,textarea,item,The User Interface Designer objected that a colourful remote control is not practical.,correct,The User Interface Designer objected that a colourful remote control is not practical.,"The User Interface Designer said that colourful remote controls are not practical.
+The Marketing Expert suggested changing the colors of the frame.
+The Industrial Designer suggested that the frame could change colors.",400.11,401.609,llm,419.4152,17.806200000000047
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,mised_2,textarea,extra,The Marketing Expert suggested changing the colors of the frame.,invented,,The Marketing Expert suggested changing the colors of the frame.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,mised_2,textarea,extra,The Industrial Designer suggested that the frame could change colors.,invented,,The Industrial Designer suggested that the frame could change colors.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,mised_5,textarea,value,,correctly_empty,,,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,mised_7,textarea,item,The Industrial Designer proposed having some child lock or something similar.,correct,The Industrial Designer proposed having some child lock or something similar.,"The Industrial Designer suggested a child lock.
+The Industrial Designer suggested that they could keep two switches and only make one working.
+The Industrial Designer suggested that they could adapt only one switch.",387.91,388.353,llm,391.3264,2.9733999999999696
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,mised_7,textarea,extra,The Industrial Designer suggested that they could keep two switches and only make one working.,invented,,The Industrial Designer suggested that they could keep two switches and only make one working.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,mised_7,textarea,extra,The Industrial Designer suggested that they could adapt only one switch.,invented,,The Industrial Designer suggested that they could adapt only one switch.,,,,,
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,mised_8,textarea,item,The Project Manager asked whether the remote controls should maybe be waterproof.,missing,The Project Manager asked whether the remote controls should maybe be waterproof.,The Marketing Expert suggested that remote controls have to be waterproof.,365.83,367.336,llm,,inf
+20261121-181045-gated-flash-v6-cache-ami,ami,IS1006a,mised_9,textarea,value,,correctly_empty,,,,,,,

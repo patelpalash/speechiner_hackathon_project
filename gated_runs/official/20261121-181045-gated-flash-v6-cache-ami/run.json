@@ -1,0 +1,95 @@
+{
+ "run_id": "20261121-181045-gated-flash-v6-cache-ami",
+ "name": "gated-flash-v6-cache",
+ "extractor": "my_extractor:MyExtractor",
+ "dataset": "ami",
+ "split": "all",
+ "speed": 1.0,
+ "concurrency": 4,
+ "official": true,
+ "sample": {
+  "n": null,
+  "seed": null,
+  "ids": [
+   "IS1006a"
+  ]
+ },
+ "config_fingerprint": "fc97b9697875",
+ "config": {
+  "datasets": {
+   "spokenwoz": {
+    "split": "test",
+    "n": 10,
+    "seed": 0
+   },
+   "ami": {
+    "max_minutes": 15.0,
+    "n": 2,
+    "seed": 0,
+    "layers": [
+     "summary",
+     "topics",
+     "qmsum",
+     "mised"
+    ]
+   }
+  },
+  "stream": {
+   "partial_every_s": 1.3,
+   "partial_jitter_s": 0.2,
+   "word_delay_s": 0.4,
+   "turn_pause_s": 0.2,
+   "turn_max_silence_s": 1.5,
+   "turn_close_s": 0.3,
+   "max_turn_s": 60.0,
+   "speaker_labels": true,
+   "pending_under_s": 1.0,
+   "final_grace_s": 15.0,
+   "seed": 0
+  },
+  "matching": {
+   "fuzzy_name_threshold": 85.0
+  },
+  "score": {
+   "speed_limit_s": {
+    "spokenwoz": 8.0,
+    "ami": 80.0
+   },
+   "speed_power": 0.5,
+   "dataset_weights": {
+    "spokenwoz": 0.5,
+    "ami": 0.5
+   }
+  },
+  "turn_metrics": {
+   "read_after_s": 3.0
+  },
+  "latency": {
+   "percentile": 90.0
+  },
+  "judge": {
+   "kind": "nli",
+   "nli_model": "dleemiller/finecat-nli-dbv3-l",
+   "llm_model": null,
+   "interval_s": 30.0,
+   "batch": 32,
+   "window_step": 0.5
+  }
+ },
+ "started_at": "2026-11-21T18:10:45+00:00",
+ "conversations": [
+  {
+   "conversation": "IS1006a",
+   "status": "ok",
+   "error": null,
+   "audio_end": 820.57,
+   "stream_end": 820.87,
+   "run_end": 822.283,
+   "calls": 51,
+   "other_uses": 0,
+   "late_updates": 0
+  }
+ ],
+ "wall_seconds": 822.3,
+ "finished_at": "2026-11-21T18:24:27+00:00"
+}

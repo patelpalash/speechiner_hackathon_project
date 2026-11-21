@@ -25,12 +25,13 @@ from typing import Any
 from urllib.error import HTTPError, URLError
 from urllib.request import HTTPRedirectHandler, Request, build_opener
 
-from strategies.delta import RESPONSE_FORMAT
+from strategies.delta import response_format
 
-DEFAULT_MODEL = "google/gemini-2.5-flash-lite"
+DEFAULT_MODEL = "google/gemini-2.5-flash"
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 ENV_PREFIX = "LFE_OPENROUTER_"
 TIMEOUT_S = 7.0
+MAX_UNRESOLVED = 3
 RESPONSE_LIMIT = 512 * 1024
 MODEL_ID = re.compile(r"[a-zA-Z0-9._-]+/[a-zA-Z0-9._:-]+")
 
@@ -94,6 +95,24 @@ class _RejectRedirect(HTTPRedirectHandler):
 class _RequestFailed(Exception):
     """Safe error text for the run log. Provider response bodies can contain sensitive data."""
 
+    http_status: int | None = None
+
+
+def _cacheable(messages: list[dict[str, str]]) -> list[dict[str, Any]]:
+    """Mark the end of the stable system prompt as a cache breakpoint.
+
+    Gemini's implicit cache covered about 1,630 of the prompt's 2,010 tokens and missed now and then. An explicit
+    breakpoint caches the whole system prompt (about 1,970 tokens, read at a tenth of the input price), so only the
+    short evidence message is billed at the full rate. The first request of a prompt pays one cache write.
+    """
+    if os.environ.get(ENV_PREFIX + "EXPLICIT_CACHE", "1") == "0" or not messages:
+        return list(messages)
+    first, *rest = messages
+    if first.get("role") != "system" or not isinstance(first.get("content"), str):
+        return list(messages)
+    block = {"type": "text", "text": first["content"], "cache_control": {"type": "ephemeral"}}
+    return [{"role": "system", "content": [block]}, *rest]
+
 
 class OpenRouterClient:
     """One instance shares a local budget among all conversations of a run."""
@@ -110,6 +129,7 @@ class OpenRouterClient:
         self._spent_usd = 0.0
         self._reserved_usd = 0.0
         self._blocked = False
+        self._unresolved = 0  # failed requests in a row whose charge is unknown
 
     @classmethod
     def from_env(cls) -> OpenRouterClient:
@@ -144,7 +164,7 @@ class OpenRouterClient:
         input_rate = self._rates["input_tokens"]
         output_rate = self._rates["output_tokens"]
         # UTF-8 bytes overestimate tokens on these text prompts. Extra room covers chat framing.
-        request_context = (messages, RESPONSE_FORMAT)
+        request_context = (messages, response_format(messages))
         input_upper_estimate = len(json.dumps(request_context, ensure_ascii=False).encode("utf-8")) + 1024
         largest_input_rate = max(input_rate, self._rates.get("cache_read_tokens", input_rate),
                                  self._rates.get("cache_write_tokens", input_rate))
@@ -154,20 +174,27 @@ class OpenRouterClient:
         self._reserved_usd += reserve
         started = time.monotonic()
         result = None
+        rejected = False
         try:
             async with asyncio.timeout(TIMEOUT_S):
                 response = await asyncio.to_thread(self._request, messages, max_tokens)
             result = self._completion(response, time.monotonic() - started)
             return result
         except (TimeoutError, _RequestFailed) as error:
+            # An HTTP error status (e.g. 503, no provider available) comes back before generation. A timeout may
+            # still bill, but never more than its reserve: max_tokens and max_price bound it. The reserve is counted
+            # as spent and later requests go ahead, until MAX_UNRESOLVED failures in a row block the client.
+            rejected = getattr(error, "http_status", None) is not None
             reason = "OpenRouter request timed out." if isinstance(error, TimeoutError) else str(error)
             return Completion(None, self.model, {}, {}, time.monotonic() - started, reason)
         finally:
             self._reserved_usd -= reserve
             if result is None or result.cost_usd is None:
                 self._spent_usd += reserve
-                self._blocked = True
+                self._unresolved += not rejected
+                self._blocked = self._blocked or self._unresolved >= MAX_UNRESOLVED
             else:
+                self._unresolved = 0
                 self._spent_usd += result.cost_usd
                 if result.cost_usd > reserve:
                     self._blocked = True
@@ -175,10 +202,10 @@ class OpenRouterClient:
     def _request(self, messages: list[dict[str, str]], max_tokens: int) -> dict[str, Any]:
         body = {
             "model": self.model,
-            "messages": messages,
+            "messages": _cacheable(messages),
             "temperature": 0,
             "max_tokens": max_tokens,
-            "response_format": RESPONSE_FORMAT,
+            "response_format": response_format(messages),
             "reasoning": {"enabled": False},
             "provider": {
                 "allow_fallbacks": False,
@@ -200,7 +227,9 @@ class OpenRouterClient:
             response = json.loads(payload)
         except HTTPError as error:
             error.close()
-            raise _RequestFailed(f"OpenRouter returned HTTP {error.code}.") from None
+            failure = _RequestFailed(f"OpenRouter returned HTTP {error.code}.")
+            failure.http_status = error.code
+            raise failure from None
         except (URLError, OSError):
             raise _RequestFailed("OpenRouter connection failed.") from None
         except (UnicodeDecodeError, json.JSONDecodeError):

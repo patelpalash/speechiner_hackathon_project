@@ -1,0 +1,78 @@
+# HOW submissions are evaluated. Set by the organisers; every official run uses this file unchanged.
+# Nothing a submission tunes belongs here (prompts, models, concurrency: those live in your own code).
+# Every key is explained in docs/config.md.
+
+paths:
+  raw: ~/datasets/live-form-eval/raw              # downloaded datasets (about 490 MB), outside the repo
+  processed: gated_runs/extra24/processed                       # conversations, forms and gold (SpokenWOZ only): what every command reads
+  audio: ~/datasets/live-form-eval/audio          # recordings, fetched one by one when `lfe ui` plays their sound
+  runs: gated_runs/extra24/run_folders                                      # one folder per run
+  results: gated_runs/extra24/scores                                # tables, plots and reports written by `lfe evaluate`
+
+datasets:                 # the official sample of each dataset
+  spokenwoz:
+    split: test           # test = 1,000 calls for official runs; dev = 500 calls to develop on
+    n: 10                # calls drawn from the split (null = all of them)
+    seed: 0               # the same n and seed always draw the same calls
+  ami:
+    max_minutes: 15       # only meetings up to this length (9 meetings)
+    n: 2               # meetings drawn from those (null = all of them)
+    seed: 0
+    layers: [summary, topics, qmsum, mised]   # which label layers become form fields
+
+stream:                   # the simulated speech-to-text stream; measured on real AssemblyAI sessions (docs/stream.md)
+  partial_every_s: 1.3    # a partial arrives about this often while a turn has new words
+  partial_jitter_s: 0.2   # each interval varies by ± this much (seeded)
+  word_delay_s: 0.4       # a partial shows the words that ended at least this long ago
+  turn_pause_s: 0.2       # after a sentence end, a silence this long ends the turn
+  turn_max_silence_s: 1.5 # anywhere, a silence this long ends the turn
+  turn_close_s: 0.3       # the finished turn arrives this long after its last word (must be ≥ turn_pause_s)
+  max_turn_s: 60          # continuous speech is cut into turns of at most this length
+  speaker_labels: true    # speakers "A", "B", … on turns and words, as with AssemblyAI's streaming diarization
+  pending_under_s: 1.0    # under this much audio, a speaker is "PENDING" (too short to attribute)
+  final_grace_s: 15       # after the last partial, an extractor has this long to finish its run
+  seed: 0
+
+matching:
+  fuzzy_name_threshold: 85   # names (hotel, restaurant, place, person) match from this similarity, 0–100
+
+score:                    # the ranking: the harmonic mean of completeness, precision, speed and outcome
+  speed_limit_s: {spokenwoz: 8, ami: 80}   # a value shown this long after it was said, or later, earns no speed;
+                          # the form is also read this long after the last value (placeholders until real runs)
+  speed_power: 0.5        # speed = (1 − delay ÷ limit) ^ power; 0.5 is the square-root curve (placeholder too)
+  dataset_weights: {spokenwoz: 0.5, ami: 0.5}   # how a submission's datasets are averaged in the ranking
+
+turn_metrics:             # joint goal accuracy and turn slot F1: SpokenWOZ's own measures, for orientation
+  read_after_s: 3.0       # the form is read this long after each caller turn
+
+latency:
+  percentile: 90          # the percentile of Final Decision latency reported next to the median
+
+judge:                    # free-text fields (AMI): does a text support a statement?
+  kind: nli               # nli (default) or llm_facts
+  nli_model: dleemiller/finecat-nli-dbv3-l
+  llm_model: null         # for kind: llm_facts (needs the mlx extra)
+  interval_s: 30          # a field's text is judged at most this often, to bound the judge calls
+  batch: 32               # text pairs judged at once
+  window_step: 0.5        # a text too long for the model is read in windows; each starts this share of a window
+                          # after the one before (0.5 = half a window, so neighbouring windows overlap by half)
+
+plots:
+  mode: light             # light or dark
+
+ui:                       # `lfe ui`: the page that plays one conversation and shows its form filling (docs/ui.md).
+                          # It decides no score; a run made from the page is unofficial like any single conversation.
+  host: 127.0.0.1         # the address the page is served on; this one is reachable from this machine only
+  port: 8765              # … and its port (`lfe ui --port` overrides it)
+  extractor_folders: ["."]   # where extractor classes are looked for, with their subfolders; relative to the folder
+                          # `lfe ui` is started in
+  skip_folders: [live_form_eval, tests, notebooks, docs, annotations, runs, results]   # … except folders with these
+                          # names (hidden folders and virtual environments are always skipped)
+  refresh_s: 2            # how often the page looks for new extractors and runs
+  speeds: [0.5, 1, 2, 5, 10, 30]   # the speeds the page offers; 1 is real time
+  audio_max_speed: 4      # the recording is played up to this speed; faster, a conversation can't be followed by ear
+  score_every_s: 0.5      # how often the score so far is computed: seconds of real time during a live run, seconds
+                          # of the conversation when a run is reviewed
+  unwatched_stop_s: 5     # a live run is stopped this long after its page was closed, so that it spends nothing unseen
+  stop_wait_s: 30         # a stopped live run gets this long for its extractor's close() (ending a session it opened,
+                          # reporting its usage) and for writing its run folder; after that its process is ended

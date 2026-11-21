@@ -1,0 +1,227 @@
+{"conversation": "SNG0803", "t": 10.3643, "field_id": "services", "value": ["hotel"]}
+{"conversation": "MUL3183", "t": 13.0814, "field_id": "attraction_area", "value": "centre"}
+{"conversation": "MUL1504", "t": 14.8176, "field_id": "services", "value": ["train"]}
+{"conversation": "SNG0803", "t": 21.6818, "field_id": "hotel_area", "value": "centre"}
+{"conversation": "MUL1504", "t": 23.7345, "field_id": "train_day", "value": "monday"}
+{"conversation": "SNG1142", "t": 25.8848, "field_id": "services", "value": ["hospital"]}
+{"conversation": "SNG0803", "t": 26.3441, "field_id": "hotel_internet", "value": true}
+{"conversation": "SNG1142", "t": 27.3412, "field_id": "hospital_department", "value": "neurosciences critical care unit"}
+{"conversation": "SNG0803", "t": 38.2033, "field_id": "hotel_parking", "value": true}
+{"conversation": "MUL1504", "t": 41.8028, "field_id": "train_departure", "value": "cambridge"}
+{"conversation": "MUL3183", "t": 44.102, "field_id": "attraction_type", "value": "museum"}
+{"conversation": "SNG0803", "t": 56.3757, "field_id": "hotel_name", "value": "alexander bed and breakfast"}
+{"conversation": "SNG0803", "t": 61.8668, "field_id": "profile_name", "value": "kathleen martin"}
+{"conversation": "SNG0803", "t": 69.3725, "field_id": "profile_name", "value": "kthlevm martin"}
+{"conversation": "MUL3183", "t": 73.1148, "field_id": "attraction_name", "value": "broughton house gallery"}
+{"conversation": "MUL1504", "t": 80.1894, "field_id": "train_leave_at", "value": "12:00"}
+{"conversation": "SNG0803", "t": 87.6866, "field_id": "hotel_people", "value": 5}
+{"conversation": "MUL1504", "t": 92.1294, "field_id": "services", "value": ["hotel", "train"]}
+{"conversation": "MUL1504", "t": 93.0463, "field_id": "hotel_name", "value": "roses"}
+{"conversation": "SNG0803", "t": 98.4925, "field_id": "hotel_nights", "value": 2}
+{"conversation": "SNG0803", "t": 99.8346, "field_id": "hotel_day", "value": "tuesday"}
+{"conversation": "MUL3183", "t": 101.8268, "field_id": "services", "value": ["restaurant"]}
+{"conversation": "MUL1504", "t": 115.7067, "field_id": "hotel_price_range", "value": "moderate"}
+{"conversation": "MUL3183", "t": 122.2377, "field_id": "restaurant_price_range", "value": "expensive"}
+{"conversation": "MUL3183", "t": 126.7501, "field_id": "services", "value": ["restaurant", "attraction"]}
+{"conversation": "MUL3183", "t": 127.7165, "field_id": "restaurant_food", "value": "chinese"}
+{"conversation": "MUL3183", "t": 132.0687, "field_id": "restaurant_area", "value": "centre"}
+{"conversation": "MUL1081", "t": 17.1063, "field_id": "services", "value": ["attraction"]}
+{"conversation": "MUL3183", "t": 146.2487, "field_id": "restaurant_people", "value": 2}
+{"conversation": "MUL3607", "t": 15.7663, "field_id": "services", "value": ["train"]}
+{"conversation": "MUL3183", "t": 150.0546, "field_id": "restaurant_time", "value": "14:45"}
+{"conversation": "MUL3183", "t": 150.0546, "field_id": "restaurant_day", "value": "saturday"}
+{"conversation": "MUL3607", "t": 18.0819, "field_id": "train_departure", "value": "broxbourne"}
+{"conversation": "MUL3607", "t": 18.0819, "field_id": "train_destination", "value": "cambridge"}
+{"conversation": "MUL1081", "t": 26.6554, "field_id": "attraction_area", "value": "centre"}
+{"conversation": "MUL3607", "t": 25.1929, "field_id": "train_day", "value": "sunday"}
+{"conversation": "SNG1362", "t": 8.8207, "field_id": "services", "value": ["hotel"]}
+{"conversation": "MUL3183", "t": 158.7742, "field_id": "restaurant_name", "value": "ugly duckling"}
+{"conversation": "MUL1081", "t": 34.9124, "field_id": "attraction_type", "value": "architecture"}
+{"conversation": "MUL3607", "t": 28.1424, "field_id": "train_arrive_by", "value": "05:30"}
+{"conversation": "MUL3607", "t": 30.6973, "field_id": "train_arrive_by", "value": "17:30"}
+{"conversation": "MUL3183", "t": 164.6711, "field_id": "profile_name", "value": "harold bender"}
+{"conversation": "MUL1081", "t": 48.5464, "field_id": "attraction_name", "value": "all saints church"}
+{"conversation": "MUL3607", "t": 42.3403, "field_id": "train_people", "value": 1}
+{"conversation": "SNG1362", "t": 27.5362, "field_id": "hotel_name", "value": "acorn guest house"}
+{"conversation": "MUL3607", "t": 47.8357, "field_id": "profile_id_number", "value": "449"}
+{"conversation": "MUL3607", "t": 47.9611, "field_id": "profile_id_number", "value": "4492"}
+{"conversation": "SNG1362", "t": 34.2344, "field_id": "hotel_people", "value": 3}
+{"conversation": "MUL3183", "t": 183.5212, "field_id": "services", "value": ["restaurant", "taxi", "attraction"]}
+{"conversation": "MUL3607", "t": 52.0915, "field_id": "profile_id_number", "value": "44928205"}
+{"conversation": "SNG1362", "t": 36.1907, "field_id": "hotel_nights", "value": 5}
+{"conversation": "MUL3607", "t": 57.0405, "field_id": "profile_id_number", "value": "449282055309"}
+{"conversation": "MUL3607", "t": 60.8655, "field_id": "profile_id_number", "value": "449282055309586"}
+{"conversation": "MUL3607", "t": 60.891, "field_id": "profile_id_number", "value": "4492820553095865"}
+{"conversation": "SNG1362", "t": 49.0272, "field_id": "hotel_day", "value": "monday"}
+{"conversation": "MUL1081", "t": 79.2633, "field_id": "services", "value": ["train", "attraction"]}
+{"conversation": "MUL3183", "t": 204.7552, "field_id": "taxi_arrive_by", "value": "14:45"}
+{"conversation": "MUL3183", "t": 206.9517, "field_id": "profile_phone", "value": "64"}
+{"conversation": "SNG1362", "t": 58.1677, "field_id": "profile_name", "value": "michelle welling"}
+{"conversation": "MUL1081", "t": 82.1351, "field_id": "train_destination", "value": "cambridge"}
+{"conversation": "MUL3183", "t": 209.4873, "field_id": "profile_phone", "value": "648046"}
+{"conversation": "MUL3183", "t": 212.0479, "field_id": "profile_phone", "value": "6480467666"}
+{"conversation": "MUL3183", "t": 213.6707, "field_id": "profile_phone", "value": "6480467"}
+{"conversation": "MUL3183", "t": 213.6708, "field_id": "profile_phone", "value": "6480467666"}
+{"conversation": "MUL3607", "t": 85.6661, "field_id": "restaurant_food", "value": "chinese"}
+{"conversation": "MUL3607", "t": 85.6661, "field_id": "restaurant_price_range", "value": "cheap"}
+{"conversation": "MUL3607", "t": 87.2308, "field_id": "services", "value": ["restaurant", "train"]}
+{"conversation": "MUL1081", "t": 94.7928, "field_id": "train_day", "value": "wednesday"}
+{"conversation": "MUL3607", "t": 92.1157, "field_id": "restaurant_area", "value": "centre"}
+{"conversation": "MUL3282", "t": 4.1528, "field_id": "services", "value": ["train"]}
+{"conversation": "MUL1081", "t": 104.1118, "field_id": "train_arrive_by", "value": "12:00"}
+{"conversation": "MUL0262", "t": 5.6453, "field_id": "restaurant_food", "value": "indian"}
+{"conversation": "MUL3282", "t": 13.055, "field_id": "train_departure", "value": "london kings cross"}
+{"conversation": "MUL3282", "t": 14.6126, "field_id": "train_destination", "value": "cambridge"}
+{"conversation": "MUL3607", "t": 106.5455, "field_id": "restaurant_name", "value": "golden house"}
+{"conversation": "MUL3282", "t": 26.4513, "field_id": "train_day", "value": "tuesday"}
+{"conversation": "MUL0262", "t": 25.5758, "field_id": "restaurant_people", "value": 5}
+{"conversation": "MUL0262", "t": 26.4215, "field_id": "services", "value": ["restaurant"]}
+{"conversation": "MUL0262", "t": 27.0864, "field_id": "restaurant_time", "value": "06:45"}
+{"conversation": "MUL0262", "t": 28.084, "field_id": "restaurant_day", "value": "monday"}
+{"conversation": "MUL0262", "t": 42.4614, "field_id": "profile_name", "value": "chavez plan"}
+{"conversation": "MUL3282", "t": 45.715, "field_id": "train_people", "value": 2}
+{"conversation": "MUL0262", "t": 44.8928, "field_id": "restaurant_time", "value": "05:45"}
+{"conversation": "MUL3282", "t": 51.6394, "field_id": "profile_id_number", "value": "557"}
+{"conversation": "MUL3282", "t": 53.0249, "field_id": "profile_id_number", "value": "55706"}
+{"conversation": "MUL3282", "t": 54.4539, "field_id": "profile_id_number", "value": "557061"}
+{"conversation": "MUL3282", "t": 55.8271, "field_id": "profile_id_number", "value": "5570612212"}
+{"conversation": "MUL3282", "t": 55.8609, "field_id": "profile_id_number", "value": "55706"}
+{"conversation": "MUL3282", "t": 55.861, "field_id": "profile_id_number", "value": "55706122124"}
+{"conversation": "MUL0262", "t": 54.7762, "field_id": "services", "value": ["restaurant", "train"]}
+{"conversation": "SNG0576", "t": 15.5717, "field_id": "services", "value": ["train"]}
+{"conversation": "MUL3282", "t": 58.9963, "field_id": "profile_id_number", "value": "55706122124423"}
+{"conversation": "MUL3282", "t": 59.331, "field_id": "profile_id_number", "value": "5570612212442301"}
+{"conversation": "MUL0262", "t": 57.0457, "field_id": "train_day", "value": "monday"}
+{"conversation": "MUL1799", "t": 8.5214, "field_id": "profile_name", "value": "emma neil"}
+{"conversation": "MUL0262", "t": 59.6323, "field_id": "train_destination", "value": "london kings cross"}
+{"conversation": "MUL0262", "t": 62.1622, "field_id": "train_day", "value": "tuesday"}
+{"conversation": "SNG0576", "t": 23.1372, "field_id": "train_destination", "value": "london kings cross"}
+{"conversation": "MUL0262", "t": 64.8032, "field_id": "train_departure", "value": "cambridge"}
+{"conversation": "MUL3282", "t": 68.7808, "field_id": "services", "value": ["train", "attraction"]}
+{"conversation": "MUL0262", "t": 67.6539, "field_id": "train_arrive_by", "value": "17:00"}
+{"conversation": "MUL3282", "t": 74.0054, "field_id": "attraction_name", "value": "cambodia"}
+{"conversation": "SNG0576", "t": 37.8882, "field_id": "train_day", "value": "monday"}
+{"conversation": "MUL1799", "t": 40.0606, "field_id": "train_departure", "value": "cambridge"}
+{"conversation": "MUL3282", "t": 94.5121, "field_id": "attraction_area", "value": "east"}
+{"conversation": "SNG0576", "t": 70.8146, "field_id": "train_arrive_by", "value": "13:45"}
+{"conversation": "SNG0027", "t": 16.3704, "field_id": "services", "value": ["attraction"]}
+{"conversation": "SNG0576", "t": 74.2092, "field_id": "profile_phone", "value": "0106604"}
+{"conversation": "SNG0027", "t": 21.5297, "field_id": "attraction_type", "value": "boat"}
+{"conversation": "SNG0576", "t": 77.528, "field_id": "profile_phone", "value": "010660458"}
+{"conversation": "MUL1799", "t": 67.7772, "field_id": "train_day", "value": "saturday"}
+{"conversation": "MUL1799", "t": 67.7772, "field_id": "train_leave_at", "value": "20:01"}
+{"conversation": "MUL0832", "t": 17.4913, "field_id": "services", "value": ["train"]}
+{"conversation": "MUL0832", "t": 26.8021, "field_id": "train_day", "value": "monday"}
+{"conversation": "SNG0576", "t": 90.6497, "field_id": "train_people", "value": 2}
+{"conversation": "MUL0832", "t": 28.9059, "field_id": "train_destination", "value": "cambridge"}
+{"conversation": "SNG0027", "t": 44.1828, "field_id": "attraction_name", "value": "camboats"}
+{"conversation": "MUL0832", "t": 40.1497, "field_id": "train_departure", "value": "london liverpool street"}
+{"conversation": "MUL1799", "t": 111.8254, "field_id": "services", "value": ["hotel"]}
+{"conversation": "MUL0832", "t": 67.7595, "field_id": "services", "value": ["train", "attraction"]}
+{"conversation": "MUL3800", "t": 20.7812, "field_id": "services", "value": ["attraction"]}
+{"conversation": "SNG0853", "t": 10.4908, "field_id": "services", "value": ["taxi"]}
+{"conversation": "SNG0853", "t": 11.9326, "field_id": "taxi_departure", "value": "physics"}
+{"conversation": "MUL1799", "t": 136.1273, "field_id": "hotel_parking", "value": true}
+{"conversation": "SNG0853", "t": 15.6208, "field_id": "taxi_destination", "value": "gordon house"}
+{"conversation": "MUL1799", "t": 140.4341, "field_id": "hotel_name", "value": "the roosters"}
+{"conversation": "SNG0853", "t": 19.4906, "field_id": "taxi_leave_at", "value": "06:15"}
+{"conversation": "SNG0853", "t": 25.38, "field_id": "profile_phone", "value": "161"}
+{"conversation": "SNG0853", "t": 27.9176, "field_id": "profile_phone", "value": "16137"}
+{"conversation": "SNG0853", "t": 29.2414, "field_id": "profile_phone", "value": "161376"}
+{"conversation": "SNG0853", "t": 31.8246, "field_id": "profile_phone", "value": "16137617"}
+{"conversation": "SNG0853", "t": 32.3711, "field_id": "profile_phone", "value": "161"}
+{"conversation": "SNG0853", "t": 32.3712, "field_id": "profile_phone", "value": "161376"}
+{"conversation": "SNG0853", "t": 32.3712, "field_id": "profile_phone", "value": "1613761728"}
+{"conversation": "MUL3800", "t": 53.012, "field_id": "attraction_type", "value": "entertainment"}
+{"conversation": "MUL1799", "t": 160.2402, "field_id": "hotel_type", "value": "guest house"}
+{"conversation": "MUL1799", "t": 162.6914, "field_id": "hotel_name", "value": "city centre north b and b"}
+{"conversation": "MUL3639", "t": 15.0033, "field_id": "attraction_area", "value": "centre"}
+{"conversation": "MUL3639", "t": 24.1038, "field_id": "attraction_type", "value": "college"}
+{"conversation": "MUL3639", "t": 29.7387, "field_id": "attraction_name", "value": "pembroke college"}
+{"conversation": "MUL3800", "t": 86.0455, "field_id": "attraction_name", "value": "soul tree"}
+{"conversation": "MUL3639", "t": 54.9414, "field_id": "services", "value": ["train"]}
+{"conversation": "SNG1318", "t": 22.0748, "field_id": "services", "value": ["attraction"]}
+{"conversation": "SNG1318", "t": 26.163, "field_id": "attraction_area", "value": "north"}
+{"conversation": "MUL1235", "t": 11.1873, "field_id": "restaurant_area", "value": "centre"}
+{"conversation": "MUL1235", "t": 14.2354, "field_id": "attraction_area", "value": "centre"}
+{"conversation": "MUL1235", "t": 14.2354, "field_id": "attraction_type", "value": "college"}
+{"conversation": "MUL3800", "t": 111.4614, "field_id": "services", "value": ["restaurant", "attraction"]}
+{"conversation": "MUL3639", "t": 66.1399, "field_id": "train_departure", "value": "peterborough"}
+{"conversation": "MUL3639", "t": 66.1399, "field_id": "train_destination", "value": "cambridge"}
+{"conversation": "SNG1318", "t": 34.4135, "field_id": "attraction_type", "value": "park"}
+{"conversation": "SNG1318", "t": 37.0086, "field_id": "attraction_name", "value": "milton country park"}
+{"conversation": "MUL3800", "t": 120.1654, "field_id": "restaurant_price_range", "value": "moderate"}
+{"conversation": "MUL1235", "t": 24.8943, "field_id": "services", "value": ["attraction"]}
+{"conversation": "MUL3800", "t": 121.4239, "field_id": "restaurant_food", "value": "italian"}
+{"conversation": "MUL3639", "t": 84.6196, "field_id": "train_day", "value": "friday"}
+{"conversation": "MUL3639", "t": 95.0928, "field_id": "train_arrive_by", "value": "08:00"}
+{"conversation": "MUL3639", "t": 116.9639, "field_id": "train_leave_at", "value": "00:06"}
+{"conversation": "MUL1235", "t": 75.8146, "field_id": "services", "value": ["hotel", "attraction"]}
+{"conversation": "SNG1600", "t": 16.2707, "field_id": "services", "value": ["hotel"]}
+{"conversation": "SNG0449", "t": 9.5016, "field_id": "services", "value": ["train"]}
+{"conversation": "MUL1235", "t": 85.1368, "field_id": "profile_phone", "value": "1223334900"}
+{"conversation": "MUL1235", "t": 85.1368, "field_id": "hotel_internet", "value": false}
+{"conversation": "MUL1235", "t": 85.1368, "field_id": "hotel_parking", "value": true}
+{"conversation": "SNG1600", "t": 23.1086, "field_id": "hotel_type", "value": "hotel"}
+{"conversation": "SNG1600", "t": 26.4243, "field_id": "hotel_internet", "value": true}
+{"conversation": "SNG1600", "t": 26.4243, "field_id": "hotel_type", "value": "guest house"}
+{"conversation": "SNG1600", "t": 32.042, "field_id": "hotel_area", "value": "east"}
+{"conversation": "SNG1600", "t": 34.0364, "field_id": "hotel_price_range", "value": "cheap"}
+{"conversation": "SNG0449", "t": 33.2529, "field_id": "train_day", "value": "tuesday"}
+{"conversation": "SNG1600", "t": 44.168, "field_id": "hotel_people", "value": 6}
+{"conversation": "SNG0449", "t": 40.1631, "field_id": "train_departure", "value": "cambridge"}
+{"conversation": "SNG1600", "t": 49.7123, "field_id": "hotel_day", "value": "tuesday"}
+{"conversation": "MUL1235", "t": 115.672, "field_id": "hotel_internet", "value": true}
+{"conversation": "SNG1600", "t": 50.6991, "field_id": "hotel_nights", "value": 5}
+{"conversation": "SNG1600", "t": 55.9315, "field_id": "profile_name", "value": "gina lopez"}
+{"conversation": "MUL1235", "t": 125.803, "field_id": "hotel_name", "value": "gonville hotel"}
+{"conversation": "MUL3774", "t": 55.2475, "field_id": "attraction_name", "value": "club salsa"}
+{"conversation": "MUL1235", "t": 136.225, "field_id": "hotel_nights", "value": 2}
+{"conversation": "MUL1235", "t": 142.3345, "field_id": "hotel_day", "value": "tuesday"}
+{"conversation": "MUL1235", "t": 143.2458, "field_id": "hotel_day", "value": "wednesday"}
+{"conversation": "MUL3774", "t": 75.3711, "field_id": "services", "value": ["restaurant"]}
+{"conversation": "MUL2765", "t": 15.9904, "field_id": "services", "value": ["attraction"]}
+{"conversation": "MUL2765", "t": 18.8981, "field_id": "attraction_area", "value": "centre"}
+{"conversation": "MUL2765", "t": 25.3875, "field_id": "attraction_type", "value": "college"}
+{"conversation": "MUL0592", "t": 10.8524, "field_id": "services", "value": ["train"]}
+{"conversation": "MUL2765", "t": 28.0737, "field_id": "attraction_name", "value": "trinity college"}
+{"conversation": "MUL0592", "t": 19.8896, "field_id": "train_day", "value": "sunday"}
+{"conversation": "MUL1235", "t": 178.3395, "field_id": "profile_name", "value": "grace"}
+{"conversation": "MUL0592", "t": 29.081, "field_id": "train_leave_at", "value": "06:30"}
+{"conversation": "MUL2765", "t": 46.8421, "field_id": "services", "value": ["hotel", "attraction"]}
+{"conversation": "MUL3774", "t": 109.5652, "field_id": "attraction_name", "value": "india house"}
+{"conversation": "MUL2765", "t": 50.6705, "field_id": "hotel_stars", "value": 0}
+{"conversation": "MUL3774", "t": 111.1475, "field_id": "restaurant_name", "value": "india house"}
+{"conversation": "MUL3774", "t": 112.5737, "field_id": "restaurant_people", "value": 2}
+{"conversation": "MUL2765", "t": 55.278, "field_id": "hotel_internet", "value": false}
+{"conversation": "MUL0592", "t": 46.7408, "field_id": "train_destination", "value": "kings lynn"}
+{"conversation": "MUL2765", "t": 64.5399, "field_id": "hotel_parking", "value": true}
+{"conversation": "MUL2765", "t": 67.1673, "field_id": "hotel_internet", "value": true}
+{"conversation": "SNG1370", "t": 5.3418, "field_id": "services", "value": ["hotel"]}
+{"conversation": "SNG1370", "t": 11.099, "field_id": "hotel_stars", "value": 4}
+{"conversation": "MUL0592", "t": 63.1587, "field_id": "train_leave_at", "value": "07:11"}
+{"conversation": "MUL2765", "t": 79.5165, "field_id": "hotel_price_range", "value": "cheap"}
+{"conversation": "MUL3774", "t": 139.6718, "field_id": "profile_name", "value": "herald gibson"}
+{"conversation": "MUL2765", "t": 85.0245, "field_id": "hotel_people", "value": 4}
+{"conversation": "SNG1370", "t": 21.6954, "field_id": "hotel_type", "value": "guest house"}
+{"conversation": "SNG1370", "t": 21.6954, "field_id": "hotel_price_range", "value": "moderate"}
+{"conversation": "MUL2765", "t": 89.3426, "field_id": "hotel_day", "value": "friday"}
+{"conversation": "MUL3774", "t": 152.675, "field_id": "restaurant_day", "value": "tuesday"}
+{"conversation": "SNG1370", "t": 28.8274, "field_id": "hotel_area", "value": "east"}
+{"conversation": "MUL3774", "t": 157.7557, "field_id": "restaurant_time", "value": "19:00"}
+{"conversation": "MUL2765", "t": 99.9589, "field_id": "profile_name", "value": "harry"}
+{"conversation": "MUL3774", "t": 160.3783, "field_id": "services", "value": ["restaurant", "taxi"]}
+{"conversation": "SNG1370", "t": 48.3051, "field_id": "hotel_people", "value": 1}
+{"conversation": "SNG1370", "t": 48.3051, "field_id": "hotel_nights", "value": 2}
+{"conversation": "MUL3774", "t": 173.945, "field_id": "profile_phone", "value": "2"}
+{"conversation": "MUL3774", "t": 174.9436, "field_id": "profile_phone", "value": "206"}
+{"conversation": "SNG1370", "t": 51.3126, "field_id": "hotel_day", "value": "tuesday"}
+{"conversation": "MUL3774", "t": 178.8782, "field_id": "profile_phone", "value": "206542"}
+{"conversation": "MUL0592", "t": 105.9003, "field_id": "restaurant_name", "value": "la mimosa"}
+{"conversation": "MUL3774", "t": 182.4624, "field_id": "profile_phone", "value": "20654259"}
+{"conversation": "MUL3774", "t": 189.6834, "field_id": "profile_phone", "value": "2065425926"}
+{"conversation": "SNG1370", "t": 66.2606, "field_id": "profile_name", "value": "morris osta"}
+{"conversation": "MUL0592", "t": 119.106, "field_id": "services", "value": ["restaurant", "train"]}
+{"conversation": "MUL0592", "t": 124.5552, "field_id": "restaurant_people", "value": 5}
+{"conversation": "MUL0592", "t": 159.5196, "field_id": "profile_name", "value": "judy white"}
+{"conversation": "MUL0592", "t": 164.6211, "field_id": "profile_name", "value": "jojudth white"}

@@ -6,6 +6,7 @@ import re
 from dataclasses import dataclass
 
 from live_form_eval import FieldType, Form
+from strategies.delta import _SPELLING
 
 _WORD = re.compile(r"[\w@]+", re.UNICODE)
 _EVIDENCE = re.compile(
@@ -24,6 +25,12 @@ _SMALL_TALK = frozenset({
     "ah", "bye", "great", "hello", "hey", "hi", "hmm", "mm", "okay", "ok", "oh", "please", "thank",
     "thanks", "uh", "um", "welcome", "well", "yeah", "yep", "yes", "you",
 })
+
+
+# Minimum seconds between booking-form requests. Values count as fast only within 8 s of being said.
+_SLOT_SPACING_S = 1.0
+# Meeting notes: answers count as fast within 80 s, so batch, but not so long that facts arrive late.
+_MEETING_SPACING_S = 14.0
 
 
 @dataclass(frozen=True)
@@ -57,7 +64,7 @@ class Gate:
         self, evidence: str, *, recent: str, first_at: float, last_call: float, finished: bool, final: bool
     ) -> Schedule | None:
         lowered = evidence.casefold()
-        tokens = _WORD.findall(lowered)
+        tokens = [_SPELLING.get(token, token) for token in _WORD.findall(lowered)]
         if not tokens:
             return None
         confirmation = False
@@ -71,14 +78,14 @@ class Gate:
         if final:
             return Schedule("final", first_at)
         if self.meeting:
-            due = last_call + 14
+            due = last_call + _MEETING_SPACING_S
             if informative >= 12 and _MEETING.search(evidence):
                 return Schedule("meeting_signal", due)
             if informative >= 26:
                 return Schedule("meeting_batch", due)
             return Schedule("meeting_deadline", max(due, first_at + 22))
 
-        due = last_call + 4
+        due = last_call + _SLOT_SPACING_S
         has_option = self._has_option(lowered, tokens)
         if confirmation or ((finished or informative >= 3) and (_EVIDENCE.search(evidence) or has_option)):
             return Schedule("slot_signal", due)
